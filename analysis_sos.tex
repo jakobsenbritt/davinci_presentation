@@ -9,82 +9,105 @@
 p(\mathbf{x})=\sum\limits_{j=1}^{m}f_j^2(\mathbf{x})=\mathbf{z}^T\mathbf{Q}\mathbf{z}\quad \in\Sigma[\mathbf{x}]
 \end{equation*}
 \end{block}
+	\vspace*{-3mm}
+\begin{minipage}[b]{0.55\linewidth}
 \begin{block}{Putinars Positivstellensatz}
 	\begin{itemize}
 		\item Gør det muligt at definere funktionens fortegn på de forskellige regioner
 	\end{itemize}
 \end{block}
+\end{minipage}
+\hspace{1mm}
+\begin{minipage}[b]{0.4\linewidth}
+	\vspace{3mm}
+	\includegraphics[width=1\textwidth]{SOSTOOLS.pdf}
+\end{minipage}
 \end{frame}
 
 \begin{frame}{Barrierecertifikat-søgning med SOSTOOLS}{Sikkerhedsverifikation af lukketsløjfesystem}
+\begin{minipage}[b]{0.65\linewidth}
+	\vspace{2mm}
 %\begin{block}{Forståelse af værktøjet}
 %		\begin{itemize}
 %			\item Parametre til evaluering af resultat: feasibility ratio, residual norm, test om udtryk er SOS
 %		\end{itemize}
 %\end{block}
-\begin{block}{Barrierecertifikat-søgning på slide use-case}
+\begin{block}{Slide: 1.ordens-approksimering}
 		\begin{itemize}
-			\item Sikkerhedsverifikation af førsteordens system med lineær regulator for forskellige referencer
-			\item Geometrisk forståelse af problemet
+			\item Nul-reference
+			\item Referenceinterval
 		\end{itemize}
 \end{block}
-\begin{figure}[h]
-\begin{subfigure}[h]{.3\textwidth}
-	\centering
-	\includegraphics[width=\textwidth]{sos_Xregion.pdf}
-\end{subfigure}
-	\hspace{3mm}
-\begin{subfigure}[h]{.3\textwidth}
-	\centering
-	\includegraphics[width=\textwidth]{sos_Xregion_dBdx.pdf}
-\end{subfigure}
-	\hspace{3mm}
-\begin{subfigure}[h]{.3\textwidth}
-	\centering
-	\includegraphics[width=\textwidth]{sos_Xregion_Bvalue.pdf}
-\end{subfigure}
-\end{figure}
+\begin{block}{Slide: beskrevet ved fejltilstand}
+	\begin{itemize}
+		\item 1.ordens-approksimering
+		\item 2.ordens-approksimering
+	\end{itemize}
+\end{block}
+%\begin{figure}[h]
+%\begin{subfigure}[h]{.3\textwidth}
+%	\centering
+%	\includegraphics[width=0.3\textwidth]{sos_Xregion.pdf}
+%\end{subfigure}
+\hspace{3mm}
+%\begin{subfigure}[h]{.3\textwidth}
+%	\centering
+	\includegraphics[width=0.4\textwidth]{sos_Xregion_dBdx.pdf}
+%\end{subfigure}
+%	\hspace{3mm}
+%\begin{subfigure}[h]{.3\textwidth}
+%	\centering
+%	\includegraphics[width=0.3\textwidth]{sos_Xregion_Bvalue.pdf}
+%\end{subfigure}
+%\end{figure}
+\hspace{3mm}
+\includegraphics[width=0.4\textwidth]{sos_errorref_1d_new_2ndorder.pdf}
+\end{minipage}
+\hspace{1mm}
+\begin{minipage}[b]{0.32\linewidth}
+\href{file:../../MATLAB/test_barriersearch.m}{\includegraphics[width=1\textwidth]{slide_sos.pdf}}	
+\end{minipage}
 \end{frame}
 
-\begin{frame}{Barrierecertifikat-søgning med SOSTOOLS}{Sikkerhedsverifikation gennem fejl-tilstand}
-	\begin{block}{Omformulering af problemet til fejl-tilstanden}
-		\begin{itemize}
-			\item Koordinatskifte og sammenhæng
-			\item Forsimpling af problemet -- sikkerhedsverificering af både første- og andenordens model af slide-bevægelse
-		\end{itemize}
-	\end{block}
-	\begin{figure}[h]
-		\begin{subfigure}[h]{.3\textwidth}
-			\centering
-			\includegraphics[width=\textwidth]{sos_error_2d_2ndorder.pdf}
-		\end{subfigure}
-		\hspace{3mm}
-		\begin{subfigure}[h]{.3\textwidth}
-			\centering
-			\includegraphics[width=\textwidth]{sos_delta_error_2ndorder.pdf}
-		\end{subfigure}
-		\hspace{3mm}
-		\begin{subfigure}[h]{.3\textwidth}
-			\centering
-			\includegraphics[width=\textwidth]{sos_errorref_1d_new_2ndorder.pdf}
-		\end{subfigure}
-	\end{figure}
-\end{frame}
+%\begin{frame}{Barrierecertifikat-søgning med SOSTOOLS}{Sikkerhedsverifikation gennem fejl-tilstand}
+%	\begin{block}{Omformulering af problemet til fejl-tilstanden}
+%		\begin{itemize}
+%			\item Koordinatskifte og sammenhæng
+%			\item Forsimpling af problemet -- sikkerhedsverificering af både første- og andenordens model af slide-bevægelse
+%		\end{itemize}
+%	\end{block}
+%	\begin{figure}[h]
+%%		\begin{subfigure}[h]{.3\textwidth}
+%%			\centering
+%			\includegraphics[width=0.3\textwidth]{sos_error_2d_2ndorder.pdf}
+%%		\end{subfigure}
+%		\hspace{3mm}
+%%		\begin{subfigure}[h]{.3\textwidth}
+%%			\centering
+%			\includegraphics[width=0.3\textwidth]{sos_delta_error_2ndorder.pdf}
+%%		\end{subfigure}
+%		\hspace{3mm}
+%%		\begin{subfigure}[h]{.3\textwidth}
+%%			\centering
+%			\includegraphics[width=0.3\textwidth]{sos_errorref_1d_new_2ndorder.pdf}
+%%		\end{subfigure}
+%	\end{figure}
+%\end{frame}
 
-\begin{frame}{Evaluering af SOSTOOLS}{Sikkerhedsverifikation af lukketsløjfesystem}
-	\begin{block}{Evaluering af løsning}
-		\begin{itemize}
-			\item Feasibility ratio, residual norm, test om ligninger er SOS
-			\item Mange parametre at skrue på
-			\item Længere proces at minimere numeriske fejl
-		\end{itemize}
-	\end{block}
-	\begin{block}{Evaluering af værktøjet}
-		\begin{itemize}
-			\item Udviklet framework til søgning efter barrierecertifikater
-			\item Fundet mange brugbare løsninger
-			\item Systematisk afsøgning er en lang og iterativ proces
-			\item Avanceret metode der kommer til sin ret for højere-ordens systemer
-		\end{itemize}
-	\end{block}
-\end{frame}
+%\begin{frame}{Evaluering af SOSTOOLS}{Sikkerhedsverifikation af lukketsløjfesystem}
+%	\begin{block}{Evaluering af løsning}
+%		\begin{itemize}
+%			\item Feasibility ratio, residual norm, test om ligninger er SOS
+%			\item Mange parametre at skrue på
+%			\item Længere proces at minimere numeriske fejl
+%		\end{itemize}
+%	\end{block}
+%	\begin{block}{Evaluering af værktøjet}
+%		\begin{itemize}
+%			\item Udviklet framework til søgning efter barrierecertifikater
+%			\item Fundet mange brugbare løsninger
+%			\item Systematisk afsøgning er en lang og iterativ proces
+%			\item Avanceret metode der kommer til sin ret for højere-ordens systemer
+%		\end{itemize}
+%	\end{block}
+%\end{frame}
