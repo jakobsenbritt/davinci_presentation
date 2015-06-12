@@ -1,0 +1,99 @@
+\begin{frame}{Konklusion}{Har vi flyttet noget?}
+\section{Konklusion}
+\begin{minipage}{0.6\textwidth}
+\begin{block}{}
+	\begin{itemize}
+		\item \textbf{Et narturligt ønske:}\\ - Sikkerhed og virtual fixture
+		\item \textbf{Opdelt løsningsstrategi:}\\ - Design og Analyse 
+		\vspace{0.3cm}
+		\item Sikkerhed \underline{kan} garanteres
+		\item virtual fixture \underline{kan} opnås
+		\item Success i begge tilgange
+		\item Interfacing gennem ROS er klargjort + kortlægning af den kinematiske kæde og IK.
+		\item En stejl læringskurve er brudt \\ - det er et projekt der kan arbejdes videre på
+	\end{itemize}
+\end{block}
+\end{minipage}
+\begin{minipage}{0.35\textwidth}
+\includegraphics[width=1\linewidth]{blowing-a-dandelion-600.jpg}
+\vspace*{0.2cm}
+
+\includegraphics[width=1\linewidth]{TwoPaths-900x470.jpg}
+\vspace*{0.2cm}
+
+\includegraphics[width=1\linewidth]{path-to-success.jpg}
+\end{minipage}
+\end{frame}
+
+\begin{frame}{Konklusion}{Konklusion på design tilgangen}
+\begin{itemize}
+	\item Relativ intuitiv design procedure \\	\vspace*{0.08cm}
+	\scriptsize {\color{white}{m}} 1. Lav model \\	
+    \scriptsize {\color{white}{m}} 2. Konstruer CBF udfra fysiske forhold \\	
+    \scriptsize {\color{white}{m}} 3. Specificer $\epsilon$ sådan at $\mathcal{T}$ er "tilpas" \\	
+    \scriptsize {\color{white}{m}} 4. Design en vilkårlig controller i det sikre område \\ 	
+    \scriptsize {\color{white}{m}} 5. Kombiner "sikker" og "usikker" controller \\
+	\item \normalsize Kreativitet er nødvendigt når en CBF skal konstrueres
+	\item Brug når der er et fysisk forhold til tilstandene
+	\item Brugbar og behagelig fremgangsmåde
+\end{itemize}
+\vspace*{0.2cm}
+\includegraphics[width=0.27\linewidth]{checklist.jpg} \hspace*{0.2cm}
+\includegraphics[width=0.35\linewidth]{p01tgd39.jpg} \hspace*{0.2cm}
+\includegraphics[width=0.2\linewidth]{9212_fit512.jpg}
+\end{frame}
+
+
+
+\begin{frame}{Konklusion}{konklusion på analyse tilgangen}
+\begin{itemize}
+	\item Global (SOS) til lokal (putinar positivstellensatz)
+	\item Et framework er udviklet
+\end{itemize}
+
+\includegraphics[width=1\linewidth]{sostools_eval.pdf}
+
+\begin{itemize}
+	\item Frameworket kan udvides til \textit{n}-dimensioner
+	\item \textbf{Anvendelse:} Forstå betydningen af $\Delta, \epsilon, g_j$ og $deg$.
+	\item \textbf{Budskab:} Når en grøn løsning er fundet - Stop
+	\item \textbf{Udvidelse i dimensioner:} Definere nye \textit{g} og \textit{q}-polynomier 
+	\item Abstrakt teori er analyseret, anvendt sammen med SOSTOOLS og en guide er udarbejdet
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Fremtidigt arbejde}{Vi er ikke stærkere end det svageste led i kæden}
+\begin{minipage}{0.65\textwidth}
+\begin{block}{}
+	\begin{itemize}
+		%\item Fejl-tolerant kontrol % \\ 
+		%\scriptsize {\color{white}{m}} - Hvad hvis vi mister en sensor?
+		\item \normalsize Kompleksitet af barrier funktioner
+		\item \normalsize Robust/fejl-tolerent kontrol %\\ 
+%		\scriptsize {\color{white}{m}} - Modeller vil altid være forsimplet!
+		\item \normalsize Inkorporere Integral virkning \\ 
+		\scriptsize {\color{white}{m}} - især tydeligt ved det dynamiske system
+%		\item lave en tre delining i $\mathcal{T}$
+		\item \normalsize End effector orientering \\
+		\scriptsize {\color{white}{m}} -  Sikre sikkerhed for rammen
+		\item \normalsize  Trajektorie planlægning \\ 
+		\scriptsize {\color{white}{m}} - hvis springet mellem \textit{x} og \textit{x}$_{\text{ref}}$ er for stort
+		\item \normalsize Tachometer kan blive "forvirret"
+		\item Skræddersy IK solver
+		\item Øge sampling rate til 2\,kHz \\
+		\scriptsize {\color{white}{m}} - UDP i stedet for TCP/IP
+		\item \normalsize  Monte Carlo simulering ved brug af SOSTOOLS framework
+	\end{itemize}
+\end{block}
+\end{minipage}
+\begin{minipage}{0.3\textwidth}
+\includegraphics[width=1\linewidth]{The-Weak-Link-in-the-Chain-474557-2.jpg}
+\vspace*{0.2cm}
+
+\includegraphics[width=1\linewidth]{work_with_us.jpg}
+\vspace*{0.2cm}
+
+\includegraphics[width=1\linewidth]{chain-links-WEB.jpg}
+\end{minipage}
+\end{frame}

@@ -1,0 +1,12 @@
+\beamer@endinputifotherversion {3.24pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Agenda}{2}{0}{1}
+\beamer@sectionintoc {2}{Kirurgirobotik}{3}{0}{2}
+\beamer@sectionintoc {3}{Barrierecertifikater}{4}{0}{3}
+\beamer@sectionintoc {4}{Kontroldesign}{5}{0}{4}
+\beamer@sectionintoc {5}{Design fra CBF's}{6}{0}{5}
+\beamer@sectionintoc {6}{Sikkerhed i 1D}{7}{0}{6}
+\beamer@sectionintoc {7}{Virtuel fixture}{9}{0}{7}
+\beamer@sectionintoc {8}{Sikkerhed i 3D}{11}{0}{8}
+\beamer@sectionintoc {9}{Sikkerhedsverifikation}{13}{0}{9}
+\beamer@sectionintoc {10}{Konklusion}{15}{0}{10}
