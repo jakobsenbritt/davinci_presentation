@@ -13,6 +13,10 @@
 		\item Mål med projektet
 		\item Implementation i ROS
 		\item To tilgangsvinkler
+		\begin{itemize}
+			\item Sikkerhedsregulator
+			\item Sikkerhedsverificering
+		\end{itemize}
 	\end{itemize}
 \end{block}
 %\vspace{3mm}
@@ -26,7 +30,7 @@
 %	\hspace{0.1cm}
 %\begin{minipage}[b]{0.42\linewidth}
 \begin{flushright}
-	\vspace{-30mm}
+	\vspace{-37mm}
 \includegraphics[width=0.5\textwidth]{coffee_robot.png}
 \end{flushright}
 %\end{minipage}
@@ -73,31 +77,74 @@
 		\item Nulniveaukurven af $B(\textbf{x})$ danner  barriere mellem $\mathcal{X}_0$ og $\mathcal{X}_u$
 	\end{itemize}
 \end{block}
+\begin{minipage}[b]{0.4\linewidth}
+	\vspace{5mm}
+	\begin{block}{Barrierecertifikat}
+		\vspace{-5mm}
+	\begin{align*}
+	B(\mathbf{x})&\leq 0 \quad \forall\,\,\,\mathbf{x}\in\mathcal{X}_0\\
+	B(\mathbf{x})&> 0 \quad \forall\,\,\,\mathbf{x}\in\mathcal{X}_u\\
+	L_{f_{cl}}B(\mathbf{x})&\leq 0 \quad \forall\,\,\,\mathbf{x}\in\mathcal{X}
+	\end{align*}
+\end{block}
+\end{minipage}
+\hspace{2mm}
+\begin{minipage}[b]{0.55\linewidth}
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.8\textwidth]{safety.pdf}
+	\includegraphics[width=\textwidth]{safety.pdf}
 \end{figure}
-\vspace{1cm}
+\end{minipage}
 \end{frame}
 
 \section{Kontroldesign}
 \begin{frame}{Kontrolbarrierefunktioner (CBF)}{Konstruktion af CBF til design af sikkerhedsregulator}
-	\vspace{2mm}
-\begin{block}{To regulatorer}
+	\vspace{5mm}
+\begin{minipage}[b]{0.5\linewidth}
+	\begin{block}{Definition af CBF}
+		\vspace{-5mm}
+		\begin{align*}
+		\mathbf{x}\in\mathcal{X}_u \,\,\, \Rightarrow\,\,\, B(\mathbf{x})&>0\\
+		L_gB(\mathbf{x})=0 \,\,\,\Rightarrow\,\,\, L_fB(\mathbf{x})&<0\\
+		\{\mathbf{x}\in\mathcal{X}\,\,|\,\,B(\mathbf{x})\leq 0 \} &\neq \emptyset
+		\end{align*}
+	\end{block}
+\end{minipage}
+\hspace{4mm}
+\begin{minipage}[b]{0.35\linewidth}
+	\begin{block}{Barrierecertifikat}
+		\vspace{-5mm}
+		\begin{align*}
+		B(\mathbf{x})&\leq 0 \quad \forall\,\,\,\mathbf{x}\in\mathcal{X}_0\\
+		B(\mathbf{x})&> 0 \quad \forall\,\,\,\mathbf{x}\in\mathcal{X}_u\\
+		L_{f_{cl}}B(\mathbf{x})&\leq 0 \quad \forall\,\,\,\mathbf{x}\in\mathcal{X}
+		\end{align*}
+	\end{block}
+\end{minipage}
+\vspace{2mm}
+\begin{block}{Kombination af to regulatorer}
 	\begin{itemize}
-		\item Lineær positionskontrol indenfor det sikre område $\mathcal{X}_0$
+		\item Lineær positionskontrol $\tilde{u}(\mathbf{x})$ indenfor det sikre område $\mathcal{X}_0$
+%		\begin{equation*}
+%		\tilde{u}(\mathbf{x})=\bar{\mathbf{N}}\mathbf{x}_\text{ref}-\mathbf{K}\mathbf{x}
+%		\end{equation*}
+		\item Sikkerhedsregulator $k_0(\mathbf{x})$ designet vha. CBF % så krav til sikkerhed bliver opfyldt
+%		\begin{equation*}
+%		k_0(\mathbf{x})=-\frac{L_fB(\mathbf{x})+\sqrt{L_fB(\mathbf{x})^2+\kappa^2L_gB(\mathbf{x})L_gB(\mathbf{x})^T}}{L_gB(\mathbf{x})L_gB(\mathbf{x})^T}L_gB(\mathbf{x})^T
+%		\end{equation*}
 		\item Gradvis overgang til sikkerhedsregulator nær $\mathcal{X}_u$
-		\item Designet vha. CLF så krav til sikkerhed bliver opfyldt
+		\vspace{-1mm}
+		\begin{equation*}
+		u(\mathbf{x},\tilde{u})=\sigma(\mathbf{x})k_0(\mathbf{x})+(1-\sigma(\mathbf{x}))\tilde{u}(\mathbf{x})
+		\end{equation*}
+%		\vspace{-2mm}
 	\end{itemize}
 \end{block}
-\vspace{-2mm}
-\begin{equation*}
-u(\mathbf{x},\tilde{u})=\sigma(\mathbf{x})k_0(\mathbf{x})+(1-\sigma(\mathbf{x}))\tilde{u}(\mathbf{x})
-\end{equation*}
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.9\textwidth]{control_system.pdf}
-\end{figure}
+
+%\begin{figure}[h]
+%	\centering
+%	\includegraphics[width=0.9\textwidth]{control_system.pdf}
+%\end{figure}
 	\vspace{5mm}
 \end{frame}
