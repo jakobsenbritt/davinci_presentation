@@ -5,9 +5,9 @@
 \vspace{8mm}
 \begin{block}{Incitament for projektet}
 	\begin{itemize}
-		\item \href{file:video/surgery_robotics_history_davinci_chart.mp4}{Udbredelse og udvikling indenfor kirurgirobotik}
+		\item \LaunchBinary{video/surgery_robotics_history_davinci_chart.mp4}{Udbredelse og udvikling indenfor kirurgirobotik}
 		\item AAU: Patient-manipulator afkoblet fra master-konsol 
-		\item \href{file:video/davinci_joints.mp4}{Kontrollerbare robotled}
+		\item \LaunchBinary{video/davinci_joints.mp4}{Kontrollerbare robotled}
 		\item Sikkerhed ved robotoperationer
 		\item Fremtiden for robotkirurgi
 		\item Mål med projektet
@@ -78,7 +78,7 @@
 	\end{itemize}
 \end{block}
 \begin{minipage}[b]{0.4\linewidth}
-	\vspace{5mm}
+	\vspace{2mm}
 	\begin{block}{Barrierecertifikat}
 		\vspace{-5mm}
 	\begin{align*}
@@ -86,6 +86,10 @@
 	B(\mathbf{x})&> 0 \quad \forall\,\,\,\mathbf{x}\in\mathcal{X}_u\\
 	L_{f_{cl}}B(\mathbf{x})&\leq 0 \quad \forall\,\,\,\mathbf{x}\in\mathcal{X}
 	\end{align*}
+	\vspace{-5mm}
+	\begin{itemize}
+		\item for systemet $\dot{\mathbf{x}}=f_{cl}$
+	\end{itemize}
 \end{block}
 \end{minipage}
 \hspace{2mm}
@@ -99,7 +103,7 @@
 
 \section{Kontroldesign}
 \begin{frame}{Kontrolbarrierefunktioner (CBF)}{Konstruktion af CBF til design af sikkerhedsregulator}
-	\vspace{5mm}
+	\vspace{3mm}
 \begin{minipage}[b]{0.5\linewidth}
 	\begin{block}{Definition af CBF}
 		\vspace{-5mm}
@@ -121,7 +125,11 @@
 		\end{align*}
 	\end{block}
 \end{minipage}
-\vspace{2mm}
+\vspace{-2mm}
+\begin{itemize}
+	\item for systemet $\dot{\mathbf{x}}=f_{cl}(\mathbf{x})=f(\mathbf{x})+g(\mathbf{x})u$
+\end{itemize}
+\vspace{4mm}
 \begin{block}{Kombination af to regulatorer}
 	\begin{itemize}
 		\item Lineær positionskontrol $\tilde{u}(\mathbf{x})$ indenfor det sikre område $\mathcal{X}_0$

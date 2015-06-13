@@ -49,7 +49,24 @@
 \usepackage{epstopdf}
 
 
-
+\newcommand{\LaunchBinary}[2]{%
+	% #1: layer name,
+	% #2: link text
+	\leavevmode%
+	\pdfstartlink user {
+		/Subtype /Link
+		/Border [0 0 0]%
+		/A <<
+		/F <<
+		/DOS (#1)
+		/Unix (#1)
+		/Mac (#1)
+		>>
+		/S /Launch
+		>>
+	}#2%
+	\pdfendlink%
+}
 
 
 
