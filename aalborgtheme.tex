@@ -25,12 +25,7 @@
 
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
-\usepackage{geometry}
-\usepackage{array}
-\usepackage{hhline}
-\usepackage{hyperref}
 \usepackage{pdfpages}
-\usepackage{rotating}
 \usepackage[T1]{fontenc}
 % Or whatever. Note that the encoding and the font should match. If T1
 % does not look nice, try deleting the line with the fontenc.
@@ -43,11 +38,17 @@
 \usepackage{longtable}
 \usepackage{color} 
 \usepackage{colortbl}
-\usepackage{graphicx}
-\usepackage[compatibility=false]{caption}
-\usepackage{subcaption}
-\usepackage{epstopdf}
 
+%\usepackage{graphicx}
+%\usepackage[compatibility=false]{caption}
+%\usepackage{subcaption}
+\usepackage{epstopdf}
+\usepackage{geometry}
+%\usepackage{array}
+%\usepackage{hhline}
+%\usepackage{hyperref}
+%\usepackage{rotating}
+\usepackage{multimedia}
 
 \newcommand{\LaunchBinary}[2]{%
 	% #1: layer name,
@@ -87,9 +88,11 @@
 
 \begin{document}
 % the titlepage
-\newgeometry{top=-96mm, bottom=0cm, outer=0cm, inner=0cm, marginparwidth=0cm, marginparsep=0cm}
-\includepdf{thesis_presentation.pdf}
-\restoregeometry
+\begin{frame}
+	\newgeometry{top=-96mm, bottom=0cm, outer=0cm, inner=138mm, marginparwidth=0cm, marginparsep=0cm}
+	\includepdf{thesis_presentation.pdf}
+	\restoregeometry
+\end{frame}
 
 %{\aauwavesbg
 %\begin{frame}[plain,noframenumbering] % the plain option removes the sidebar and header from the title page
