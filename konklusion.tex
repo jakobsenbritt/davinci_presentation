@@ -8,9 +8,11 @@
 		\vspace{0.3cm}
 		\item Sikkerhed \underline{kan} garanteres
 		\item virtual fixture \underline{kan} opnås
-		\item Success i begge tilgange
-		\item Interfacing gennem ROS er klargjort + kortlægning af den kinematiske kæde og IK.
-		\item En stejl læringskurve er brudt \\ - det er et projekt der kan arbejdes videre på
+		\item Success i begge tilgange \\
+		\scriptsize - design og analyse
+		\item \normalsize Interfacing gennem ROS er klargjort + kortlægning af den kinematiske kæde og IK.
+		\item En stejl læringskurve er brudt \\ 
+		\scriptsize - der kan arbejdes videre på projektet
 	\end{itemize}
 \end{block}
 \end{minipage}
@@ -29,7 +31,7 @@
 \begin{itemize}
 	\item Relativ intuitiv design procedure \\	\vspace*{0.08cm}
 	\scriptsize {\color{white}{m}} 1. Lav model \\	
-    \scriptsize {\color{white}{m}} 2. Konstruer CBF udfra fysiske forhold \\	
+    \scriptsize {\color{white}{m}} 2. Konstruer CBF udfra fysiske forhold og beregn Lie afledede\\	
     \scriptsize {\color{white}{m}} 3. Specificer $\epsilon$ sådan at $\mathcal{T}$ er "tilpas" \\	
     \scriptsize {\color{white}{m}} 4. Design en vilkårlig controller i det sikre område \\ 	
     \scriptsize {\color{white}{m}} 5. Kombiner "sikker" og "usikker" controller \\
@@ -54,10 +56,10 @@
 \includegraphics[width=1\linewidth]{sostools_eval.pdf}
 
 \begin{itemize}
-	\item Frameworket kan udvides til \textit{n}-dimensioner
+%	\item Frameworket kan udvides til \textit{n}-dimensioner
 	\item \textbf{Anvendelse:} Forstå betydningen af $\Delta, \epsilon, g_j$ og $deg$.
 	\item \textbf{Budskab:} Når en grøn løsning er fundet - Stop
-	\item \textbf{Udvidelse i dimensioner:} Definere nye \textit{g} og \textit{q}-polynomier 
+	\item \textbf{Udvidelse i dimensioner:} Trivielt, men der skal defineres nye intervaller for \textit{g} polynomier 
 	\item Abstrakt teori er analyseret, anvendt sammen med SOSTOOLS og en guide er udarbejdet
 \end{itemize}
 

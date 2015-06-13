@@ -34,39 +34,48 @@
 \begin{minipage}{0.6\textwidth}
 \begin{block}{}
 	\begin{itemize}
-		\item Model
+		\item Model \\
+		\scriptsize - vigtig da $k_0(\textbf{x})$ er model baseret
 		\begin{itemize}
 			\item 1. orden: Opnå erfaring
-			\item 2. orden: Observer krævet
-		\end{itemize}
-		\item CBF
+			\item 2. orden: Observer krævet \\ 
+			\scriptsize - Selv for et simplet system eskalerer kontrol topologien hurtigt.
+		\end{itemize}	
+		\item \normalsize CBF
 		\begin{itemize}
 			\item parabel for 1. orden
 			\item paraboloid for 2. orden
 		\end{itemize}
 			\includegraphics[width=0.4\linewidth]{cbf_1d.eps} \hspace{0.2cm}
 			\includegraphics[width=0.4\linewidth]{cbf_2d.eps}
-		\item Simulering med Forward Euler
+		\item Fremgangsmåde for CBF: \\
+		\scriptsize - $B(\textbf{x}) > 0$ på  $\mathcal{X}_u$ og  $B(\textbf{x}) \leq 0$ på  $\mathcal{X}_0$ \\
+		- Forsøg at få $L_gB(\textbf{x}) \neq 0 \,\ \forall \, \textbf{x}$
 	\end{itemize}
+	{\color{white}{lol}}\\
+	{\color{white}{lol}}
 \end{block}
 \vspace{-0.7cm}
 \scriptsize
-\begin{align*}
-&\scriptsize \dot{x} = \lambda x \nonumber \\
-&\dot{x} = \frac{x_n - x_{n-1}}{t_n - t_{n-1}} = \frac{x_n - x_{n-1}}{h} = \lambda x_{n-1}  \\
-& x_n = x_{n-1}(1+h\lambda) = x_0(1+h\lambda)^n \\
-&\Rightarrow \,\,\, |1+h\lambda| > 1 \,\,\,\text{ustabil} 
-\end{align*}
+%\begin{align*}
+%&\scriptsize \dot{x} = \lambda x \nonumber \\
+%&\dot{x} = \frac{x_n - x_{n-1}}{t_n - t_{n-1}} = \frac{x_n - x_{n-1}}{h} = \lambda x_{n-1}  \\
+%& x_n = x_{n-1}(1+h\lambda) = x_0(1+h\lambda)^n \\
+%&\Rightarrow \,\,\, |1+h\lambda| > 1 \,\,\,\text{ustabil} 
+%\end{align*}
 \end{minipage}
 \hspace{0.3cm}
+\vspace*{-1cm}
 \begin{minipage}{0.35\textwidth}
-{\color{white}{white}}\\
-{\color{white}{white}}
+%{\color{white}{white}}\\
+%{\color{white}{white}}
 \hspace*{-0.5cm}
-\includegraphics[width=1.1\linewidth]{model_1d.eps}
+\includegraphics[width=1\linewidth]{slidemovefigure.pdf}
+
 
 \hspace*{-0.5cm}
-\includegraphics[width=1.1\linewidth]{fe_graphs.eps}
+%\includegraphics[width=1.1\linewidth]{fe_graphs.eps}
+\includegraphics[width=1.1\linewidth]{model_1d.eps}
 
 \end{minipage}
 \end{frame}
@@ -74,6 +83,8 @@
 
 \begin{frame}{Sikkerhed for et 1 dimensionelt system}{Resultater og erfaring}
 \begin{minipage}{0.48\textwidth}
+\includegraphics[width=1\linewidth]{vary_kappa.eps}
+
 \includegraphics[width=1\linewidth]{plot_states_nem.eps}
 
 \begin{itemize}
@@ -85,8 +96,8 @@
 \end{itemize}
 
 
-\includegraphics[width=1\linewidth]{vary_kappa.eps}
-\vspace*{-0.4cm}
+
+%\vspace*{-0.2cm}
 
 
 \end{minipage}
@@ -102,12 +113,12 @@
 
 \begin{frame}{Sikkerhed for et dynamisk system}{Indledende udvikling til at opnå virtual fixture}
 \section{Virtuel fixture}
-\vspace*{-0.7cm}
+\vspace*{-0.2cm}
 \begin{block}{}
 	\begin{itemize}
-		\item Opnå en sikker afstand
-		\item Lægen skal opleve hjertet som stillestående
-		\item Modeller hjertet som en sinus bevægelse (Dr. Poulsen)
+		\item Lægen skal opleve hjertet som stillestående \\
+		\scriptsize - i en sikker afstand
+		\item \normalsize Modeller hjertet som en sinus bevægelse (Dr. Poulsen)
 	\end{itemize}
 \end{block}
 \includegraphics[width=0.175\linewidth]{dynamic_boundary_limits.pdf} \hspace*{0.4cm}

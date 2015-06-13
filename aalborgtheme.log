@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.14)  12 JUN 2015 10:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.14)  13 JUN 2015 15:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1157,24 +1157,42 @@ Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 \c@subfigure=\count185
 \c@subtable=\count186
 )
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
 (./aalborgtheme.aux)
 \openout1 = `aalborgtheme.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 70.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 71.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
@@ -1225,24 +1243,9 @@ File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 \MPnumerator=\count191
 \makeMPintoPDFobject=\count192
 \everyMPtoPDFconversion=\toks52
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-)
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-ABD: EveryShipout initializing macros
+) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box91
-Package hyperref Info: Link coloring OFF on input line 70.
+Package hyperref Info: Link coloring OFF on input line 71.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1252,56 +1255,56 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count193
 )
-LaTeX Info: Redefining \ref on input line 70.
-LaTeX Info: Redefining \pageref on input line 70.
-LaTeX Info: Redefining \nameref on input line 70.
+LaTeX Info: Redefining \ref on input line 71.
+LaTeX Info: Redefining \pageref on input line 71.
+LaTeX Info: Redefining \nameref on input line 71.
 
 (./aalborgtheme.out) (./aalborgtheme.out)
 \@outlinefile=\write5
 \openout5 = `aalborgtheme.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 70.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 71.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 70.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 71.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 70.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 70.
+(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 71.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 71.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 70.
+(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 71.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 70.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 70.
+(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 71.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 71.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 70.
+(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 71.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 70.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 70.
+(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 71.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 71.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 70.
+(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 71.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 70.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 70.
+(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 71.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 71.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 70.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 71.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 70.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 71.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 70.
+(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 71.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 70.
+(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 71.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmr/bx/n on input line 70.
+(Font)                  OT1/cmss/bx/n --> T1/cmr/bx/n on input line 71.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/phv/bx/n --> T1/phv/bx/n on input line 70.
+(Font)                  T1/phv/bx/n --> T1/phv/bx/n on input line 71.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 70.
+(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 71.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 70.
+(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 71.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/bx/n on input line 70.
+(Font)                  T1/cmtt/m/n --> T1/cmtt/bx/n on input line 71.
 
 (/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-basic-dicti
 onary/translator-basic-dictionary-English.dict
@@ -1327,7 +1330,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 tionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 70.
+LaTeX Info: Redefining \includegraphics on input line 71.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (./aalborgtheme.nav)
@@ -1368,11 +1371,11 @@ Package caption Info: End \AtBeginDocument code.
 File: images/thesis_presentation.pdf Graphic file (type pdf)
 
 <use images/thesis_presentation.pdf>
-Package pdftex.def Info: images/thesis_presentation.pdf used on input line 73.
+Package pdftex.def Info: images/thesis_presentation.pdf used on input line 74.
 (pdftex.def)             Requested size: 364.19473pt x 273.14581pt.
 File: images/thesis_presentation.pdf Graphic file (type pdf)
  <use images/thesis_presentation.pdf>
-Package pdftex.def Info: images/thesis_presentation.pdf used on input line 73.
+Package pdftex.def Info: images/thesis_presentation.pdf used on input line 74.
 (pdftex.def)             Requested size: 364.19473pt x 273.14581pt.
 
 <images/thesis_presentation.pdf, id=57, page=1, 364.19562pt x 273.14648pt>
@@ -1380,31 +1383,31 @@ File: images/thesis_presentation.pdf Graphic file (type pdf)
 
 <use images/thesis_presentation.pdf, page 1>
 Package pdftex.def Info: images/thesis_presentation.pdf, page1 used on input li
-ne 73.
+ne 74.
 (pdftex.def)             Requested size: 364.19473pt x 273.14581pt.
 File: images/thesis_presentation.pdf Graphic file (type pdf)
 
 <use images/thesis_presentation.pdf, page 1>
 Package pdftex.def Info: images/thesis_presentation.pdf, page1 used on input li
-ne 73.
+ne 74.
 (pdftex.def)             Requested size: 364.38922pt x 273.29169pt.
 File: images/thesis_presentation.pdf Graphic file (type pdf)
 
 <use images/thesis_presentation.pdf, page 1>
 Package pdftex.def Info: images/thesis_presentation.pdf, page1 used on input li
-ne 73.
+ne 74.
 (pdftex.def)             Requested size: 364.38922pt x 273.29169pt.
 File: images/thesis_presentation.pdf Graphic file (type pdf)
 
 <use images/thesis_presentation.pdf, page 1>
 Package pdftex.def Info: images/thesis_presentation.pdf, page1 used on input li
-ne 73.
+ne 74.
 (pdftex.def)             Requested size: 364.38922pt x 273.29169pt.
 File: images/thesis_presentation.pdf Graphic file (type pdf)
 
 <use images/thesis_presentation.pdf, page 1>
 Package pdftex.def Info: images/thesis_presentation.pdf, page1 used on input li
-ne 73.
+ne 74.
 (pdftex.def)             Requested size: 364.38922pt x 273.29169pt.
  [1
 
@@ -1447,19 +1450,16 @@ Overfull \vbox (21.05144pt too high) detected at line 34
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 81.
 
-<images/safety.pdf, id=132, 255.1902pt x 112.67969pt>
+<images/safety.pdf, id=132, 541.8657pt x 83.12938pt>
 File: images/safety.pdf Graphic file (type pdf)
  <use images/safety.pdf>
 Package pdftex.def Info: images/safety.pdf used on input line 81.
-(pdftex.def)             Requested size: 223.07054pt x 98.49646pt.
-
-Overfull \vbox (19.77628pt too high) detected at line 81
- []
+(pdftex.def)             Requested size: 223.07054pt x 34.22151pt.
 
 [4
 
  <./images/safety.pdf>]
-<images/control_system.pdf, id=174, 405.7007pt x 120.65578pt>
+<images/control_system.pdf, id=170, 405.7007pt x 120.65578pt>
 File: images/control_system.pdf Graphic file (type pdf)
 
 <use images/control_system.pdf>
@@ -1474,26 +1474,26 @@ Overfull \vbox (7.75452pt too high) detected at line 103
 [5
 
  <./images/control_system.pdf>]) (./design.tex
-<images/simple.jpg, id=298, 1003.75pt x 1454.43375pt>
+<images/simple.jpg, id=295, 1003.75pt x 1454.43375pt>
 File: images/simple.jpg Graphic file (type jpg)
  <use images/simple.jpg>
 Package pdftex.def Info: images/simple.jpg used on input line 29.
 (pdftex.def)             Requested size: 43.9173pt x 63.62688pt.
 
-<images/tri.png, id=299, 375.4025pt x 541.02126pt>
+<images/tri.png, id=296, 375.4025pt x 541.02126pt>
 File: images/tri.png Graphic file (type png)
  <use images/tri.png>
 Package pdftex.def Info: images/tri.png used on input line 29.
 (pdftex.def)             Requested size: 43.9173pt x 63.28519pt.
 
-<images/human-heart.jpg, id=300, 240.9pt x 160.6803pt>
+<images/human-heart.jpg, id=297, 240.9pt x 160.6803pt>
 File: images/human-heart.jpg Graphic file (type jpg)
 
 <use images/human-heart.jpg>
 Package pdftex.def Info: images/human-heart.jpg used on input line 29.
 (pdftex.def)             Requested size: 75.28627pt x 50.21492pt.
 
-<images/SIIB.jpg, id=301, 1704.3675pt x 890.32625pt>
+<images/SIIB.jpg, id=298, 1704.3675pt x 890.32625pt>
 File: images/SIIB.jpg Graphic file (type jpg)
  <use images/SIIB.jpg>
 Package pdftex.def Info: images/SIIB.jpg used on input line 29.
@@ -1524,15 +1524,15 @@ Package epstopdf Info: Source file: <images/cbf_1d.eps>
 (epstopdf)                    size: 27854 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cbf_1d-eps-converte
 d-to.pdf images/cbf_1d.eps>
-(epstopdf)             \includegraphics on input line 72.
+(epstopdf)             \includegraphics on input line 81.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/cbf_1d-eps-converted-to.pdf, id=317, 765.86125pt x 456.70625pt>
+<images/cbf_1d-eps-converted-to.pdf, id=314, 765.86125pt x 456.70625pt>
 File: images/cbf_1d-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/cbf_1d-eps-converted-to.pdf>
 Package pdftex.def Info: images/cbf_1d-eps-converted-to.pdf used on input line 
-72.
+81.
 (pdftex.def)             Requested size: 58.92067pt x 35.12955pt.
 Package epstopdf Info: Source file: <images/cbf_2d.eps>
 (epstopdf)                    date: 2015-06-10 13:35:51
@@ -1542,23 +1542,23 @@ Package epstopdf Info: Source file: <images/cbf_2d.eps>
 (epstopdf)                    size: 209472 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cbf_2d-eps-converte
 d-to.pdf images/cbf_2d.eps>
-(epstopdf)             \includegraphics on input line 72.
+(epstopdf)             \includegraphics on input line 81.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/cbf_2d-eps-converted-to.pdf, id=318, 522.95375pt x 354.32375pt>
+<images/cbf_2d-eps-converted-to.pdf, id=315, 522.95375pt x 354.32375pt>
 File: images/cbf_2d-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/cbf_2d-eps-converted-to.pdf>
 Package pdftex.def Info: images/cbf_2d-eps-converted-to.pdf used on input line 
-72.
+81.
 (pdftex.def)             Requested size: 58.92067pt x 39.91646pt.
 
+<images/slidemovefigure.pdf, id=316, 789.57129pt x 699.06667pt>
+File: images/slidemovefigure.pdf Graphic file (type pdf)
 
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 72.
-
-
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 72.
-
+<use images/slidemovefigure.pdf>
+Package pdftex.def Info: images/slidemovefigure.pdf used on input line 81.
+(pdftex.def)             Requested size: 97.5947pt x 86.40176pt.
 Package epstopdf Info: Source file: <images/model_1d.eps>
 (epstopdf)                    date: 2015-06-10 13:19:40
 (epstopdf)                    size: 219131 bytes
@@ -1567,42 +1567,38 @@ Package epstopdf Info: Source file: <images/model_1d.eps>
 (epstopdf)                    size: 26587 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/model_1d-eps-conver
 ted-to.pdf images/model_1d.eps>
-(epstopdf)             \includegraphics on input line 72.
+(epstopdf)             \includegraphics on input line 81.
 Package epstopdf Info: Output file is already uptodate.
-<images/model_1d-eps-converted-to.pdf, id=319, 444.66125pt x 354.32375pt>
+
+<images/model_1d-eps-converted-to.pdf, id=317, 444.66125pt x 354.32375pt>
 File: images/model_1d-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/model_1d-eps-converted-to.pdf>
 Package pdftex.def Info: images/model_1d-eps-converted-to.pdf used on input lin
-e 72.
-(pdftex.def)             Requested size: 107.35475pt x 85.54224pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
-[]\T1/phv/m/n/10 white[]
- []
-
-Package epstopdf Info: Source file: <images/fe_graphs.eps>
-(epstopdf)                    date: 2015-06-10 13:06:00
-(epstopdf)                    size: 351797 bytes
-(epstopdf)             Output file: <images/fe_graphs-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-06-10 13:06:21
-(epstopdf)                    size: 25608 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/fe_graphs-eps-conve
-rted-to.pdf images/fe_graphs.eps>
-(epstopdf)             \includegraphics on input line 72.
-Package epstopdf Info: Output file is already uptodate.
-<images/fe_graphs-eps-converted-to.pdf, id=320, 444.66125pt x 354.32375pt>
-File: images/fe_graphs-eps-converted-to.pdf Graphic file (type pdf)
-
-<use images/fe_graphs-eps-converted-to.pdf>
-Package pdftex.def Info: images/fe_graphs-eps-converted-to.pdf used on input li
-ne 72.
+e 81.
 (pdftex.def)             Requested size: 107.35475pt x 85.54224pt.
  [7
 
  <./images/cbf_1d-eps-converted-to.pdf> <./images/cbf_2d-eps-converted-to.pdf> 
-<./images/model_1d-eps-converted-to.pdf> <./images/fe_graphs-eps-converted-to.p
-df>]
+<./images/slidemovefigure.pdf> <./images/model_1d-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <images/vary_kappa.eps>
+(epstopdf)                    date: 2015-06-10 21:12:00
+(epstopdf)                    size: 361511 bytes
+(epstopdf)             Output file: <images/vary_kappa-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-10 21:12:03
+(epstopdf)                    size: 61003 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/vary_kappa-eps-conv
+erted-to.pdf images/vary_kappa.eps>
+(epstopdf)             \includegraphics on input line 112.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/vary_kappa-eps-converted-to.pdf, id=402, 675.52374pt x 533.995pt>
+File: images/vary_kappa-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/vary_kappa-eps-converted-to.pdf>
+Package pdftex.def Info: images/vary_kappa-eps-converted-to.pdf used on input l
+ine 112.
+(pdftex.def)             Requested size: 133.84062pt x 105.79489pt.
 Package epstopdf Info: Source file: <images/plot_states_nem.eps>
 (epstopdf)                    date: 2015-06-11 10:17:01
 (epstopdf)                    size: 1757175 bytes
@@ -1612,90 +1608,76 @@ f>
 (epstopdf)                    size: 25029 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/plot_states_nem-eps
 -converted-to.pdf images/plot_states_nem.eps>
-(epstopdf)             \includegraphics on input line 101.
+(epstopdf)             \includegraphics on input line 112.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/plot_states_nem-eps-converted-to.pdf, id=383, 511.9125pt x 214.8025pt>
+<images/plot_states_nem-eps-converted-to.pdf, id=403, 511.9125pt x 214.8025pt>
 File: images/plot_states_nem-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/plot_states_nem-eps-converted-to.pdf>
 Package pdftex.def Info: images/plot_states_nem-eps-converted-to.pdf used on in
-put line 101.
+put line 112.
 (pdftex.def)             Requested size: 133.84062pt x 56.15869pt.
-Package epstopdf Info: Source file: <images/vary_kappa.eps>
-(epstopdf)                    date: 2015-06-10 21:12:00
-(epstopdf)                    size: 361511 bytes
-(epstopdf)             Output file: <images/vary_kappa-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-06-10 21:12:03
-(epstopdf)                    size: 61003 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/vary_kappa-eps-conv
-erted-to.pdf images/vary_kappa.eps>
-(epstopdf)             \includegraphics on input line 101.
-Package epstopdf Info: Output file is already uptodate.
 
-<images/vary_kappa-eps-converted-to.pdf, id=384, 675.52374pt x 533.995pt>
-File: images/vary_kappa-eps-converted-to.pdf Graphic file (type pdf)
-
-<use images/vary_kappa-eps-converted-to.pdf>
-Package pdftex.def Info: images/vary_kappa-eps-converted-to.pdf used on input l
-ine 101.
-(pdftex.def)             Requested size: 133.84062pt x 105.79489pt.
-
-<images/trajectory_slide_meas_1-eps-converted-to.pdf, id=385, 721.27965pt x 528
+<images/trajectory_slide_meas_1-eps-converted-to.pdf, id=404, 721.27965pt x 528
 .97626pt>
 File: images/trajectory_slide_meas_1-eps-converted-to.pdf Graphic file (type pd
 f)
  <use images/trajectory_slide_meas_1-eps-converted-to.pdf>
 Package pdftex.def Info: images/trajectory_slide_meas_1-eps-converted-to.pdf us
-ed on input line 101.
+ed on input line 112.
 (pdftex.def)             Requested size: 133.84062pt x 98.15771pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 []\T1/phv/m/n/10 white[]
  []
 
 
-<images/meas_trajectory_2_order-eps-converted-to.pdf, id=386, 712.6625pt x 518.
+<images/meas_trajectory_2_order-eps-converted-to.pdf, id=405, 712.6625pt x 518.
 93875pt>
 File: images/meas_trajectory_2_order-eps-converted-to.pdf Graphic file (type pd
 f)
  <use images/meas_trajectory_2_order-eps-converted-to.pdf>
 Package pdftex.def Info: images/meas_trajectory_2_order-eps-converted-to.pdf us
-ed on input line 101.
+ed on input line 112.
 (pdftex.def)             Requested size: 133.84062pt x 97.45914pt.
 
-Overfull \vbox (11.08553pt too high) detected at line 101
+Overfull \vbox (11.08553pt too high) detected at line 112
  []
 
 [8
 
- <./images/plot_states_nem-eps-converted-to.pdf> <./images/vary_kappa-eps-conve
+ <./images/vary_kappa-eps-converted-to.pdf> <./images/plot_states_nem-eps-conve
 rted-to.pdf> <./images/trajectory_slide_meas_1-eps-converted-to.pdf> <./images/
 meas_trajectory_2_order-eps-converted-to.pdf>]
-<images/dynamic_boundary_limits.pdf, id=484, 321.81831pt x 459.68037pt>
+<images/dynamic_boundary_limits.pdf, id=502, 321.81831pt x 459.68037pt>
 File: images/dynamic_boundary_limits.pdf Graphic file (type pdf)
 
 <use images/dynamic_boundary_limits.pdf>
 Package pdftex.def Info: images/dynamic_boundary_limits.pdf used on input line 
-142.
+153.
 (pdftex.def)             Requested size: 48.79735pt x 69.69958pt.
 
-<images/dynamic_boundary_sequence.pdf, id=485, 1372.27684pt x 458.06534pt>
+<images/dynamic_boundary_sequence.pdf, id=503, 1372.27684pt x 458.06534pt>
 File: images/dynamic_boundary_sequence.pdf Graphic file (type pdf)
 
 <use images/dynamic_boundary_sequence.pdf>
 Package pdftex.def Info: images/dynamic_boundary_sequence.pdf used on input lin
-e 142.
+e 153.
 (pdftex.def)             Requested size: 209.12784pt x 69.80418pt.
 
-<images/barrier.jpg, id=486, 763.85374pt x 658.46pt>
+<images/barrier.jpg, id=504, 763.85374pt x 658.46pt>
 File: images/barrier.jpg Graphic file (type jpg)
  <use images/barrier.jpg>
-Package pdftex.def Info: images/barrier.jpg used on input line 142.
+Package pdftex.def Info: images/barrier.jpg used on input line 153.
 (pdftex.def)             Requested size: 52.28195pt x 45.06203pt.
 
-Overfull \hbox (3.03624pt too wide) in paragraph at lines 142--142
+Overfull \hbox (3.03624pt too wide) in paragraph at lines 153--153
 [] 
+ []
+
+
+Overfull \vbox (3.49947pt too high) detected at line 153
  []
 
 [9
@@ -1714,18 +1696,18 @@ Package epstopdf Info: Source file: <images/dyn.eps>
 (epstopdf)                    size: 263126 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/dyn-eps-converted-t
 o.pdf images/dyn.eps>
-(epstopdf)             \includegraphics on input line 160.
+(epstopdf)             \includegraphics on input line 171.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/dyn-eps-converted-to.pdf, id=620, 443.6575pt x 480.79625pt>
+<images/dyn-eps-converted-to.pdf, id=638, 443.6575pt x 480.79625pt>
 File: images/dyn-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/dyn-eps-converted-to.pdf>
-Package pdftex.def Info: images/dyn-eps-converted-to.pdf used on input line 160
+Package pdftex.def Info: images/dyn-eps-converted-to.pdf used on input line 171
 .
 (pdftex.def)             Requested size: 150.07207pt x 162.6322pt.
 
-Overfull \hbox (21.80513pt too wide) in paragraph at lines 160--160
+Overfull \hbox (21.80513pt too wide) in paragraph at lines 171--171
 [] 
  []
 
@@ -1737,31 +1719,31 @@ Package epstopdf Info: Source file: <images/dyn_meas.eps>
 (epstopdf)                    size: 35607 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/dyn_meas-eps-conver
 ted-to.pdf images/dyn_meas.eps>
-(epstopdf)             \includegraphics on input line 160.
+(epstopdf)             \includegraphics on input line 171.
 Package epstopdf Info: Output file is already uptodate.
-<images/dyn_meas-eps-converted-to.pdf, id=621, 443.6575pt x 480.79625pt>
+<images/dyn_meas-eps-converted-to.pdf, id=639, 443.6575pt x 480.79625pt>
 File: images/dyn_meas-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/dyn_meas-eps-converted-to.pdf>
 Package pdftex.def Info: images/dyn_meas-eps-converted-to.pdf used on input lin
-e 160.
+e 171.
 (pdftex.def)             Requested size: 150.07207pt x 162.6322pt.
 
-Overfull \hbox (21.80513pt too wide) in paragraph at lines 160--160
+Overfull \hbox (21.80513pt too wide) in paragraph at lines 171--171
 [] 
  []
 
 [10
 
  <./images/dyn-eps-converted-to.pdf> <./images/dyn_meas-eps-converted-to.pdf>] 
-<images/simple_kinematics.pdf, id=661, 636.3775pt x 331.90598pt>
+<images/simple_kinematics.pdf, id=679, 636.3775pt x 331.90598pt>
 File: images/simple_kinematics.pdf Graphic file (type pdf)
 
 <use images/simple_kinematics.pdf>
-Package pdftex.def Info: images/simple_kinematics.pdf used on input line 180.
+Package pdftex.def Info: images/simple_kinematics.pdf used on input line 191.
 (pdftex.def)             Requested size: 150.57062pt x 78.52968pt.
 
-Overfull \hbox (25.09477pt too wide) in paragraph at lines 180--180
+Overfull \hbox (25.09477pt too wide) in paragraph at lines 191--191
 [][] 
  []
 
@@ -1773,34 +1755,34 @@ Package epstopdf Info: Source file: <images/3d_bar_ny.eps>
 (epstopdf)                    size: 720723 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/3d_bar_ny-eps-conve
 rted-to.pdf images/3d_bar_ny.eps>
-(epstopdf)             \includegraphics on input line 180.
+(epstopdf)             \includegraphics on input line 191.
 Package epstopdf Info: Output file is already uptodate.
-<images/3d_bar_ny-eps-converted-to.pdf, id=662, 365.365pt x 347.2975pt>
+<images/3d_bar_ny-eps-converted-to.pdf, id=680, 365.365pt x 347.2975pt>
 File: images/3d_bar_ny-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/3d_bar_ny-eps-converted-to.pdf>
 Package pdftex.def Info: images/3d_bar_ny-eps-converted-to.pdf used on input li
-ne 180.
+ne 191.
 (pdftex.def)             Requested size: 125.47585pt x 119.27193pt.
  [11
 
  <./images/simple_kinematics.pdf> <./images/3d_bar_ny-eps-converted-to.pdf>]
-<images/traj_3d_1_sim.pdf, id=1784, 670.02322pt x 484.31345pt>
+<images/traj_3d_1_sim.pdf, id=1802, 670.02322pt x 484.31345pt>
 File: images/traj_3d_1_sim.pdf Graphic file (type pdf)
 
 <use images/traj_3d_1_sim.pdf>
-Package pdftex.def Info: images/traj_3d_1_sim.pdf used on input line 208.
+Package pdftex.def Info: images/traj_3d_1_sim.pdf used on input line 219.
 (pdftex.def)             Requested size: 128.26694pt x 92.71516pt.
 
-<images/traj_3d_meas-eps-converted-to.pdf, id=1785, 774.895pt x 505.89pt>
+<images/traj_3d_meas-eps-converted-to.pdf, id=1803, 774.895pt x 505.89pt>
 File: images/traj_3d_meas-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/traj_3d_meas-eps-converted-to.pdf>
 Package pdftex.def Info: images/traj_3d_meas-eps-converted-to.pdf used on input
- line 208.
+ line 219.
 (pdftex.def)             Requested size: 141.0944pt x 92.10608pt.
 
-Overfull \hbox (12.82747pt too wide) in paragraph at lines 208--208
+Overfull \hbox (12.82747pt too wide) in paragraph at lines 219--219
 [][] 
  []
 
@@ -1811,7 +1793,7 @@ Overfull \hbox (12.82747pt too wide) in paragraph at lines 208--208
 pdfTeX warning: pdflatex (file ./images/traj_3d_meas-eps-converted-to.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
 >]) (./analysis_sos.tex
-<images/SOSTOOLS.pdf, id=1820, 182.08025pt x 122.4575pt>
+<images/SOSTOOLS.pdf, id=1838, 182.08025pt x 122.4575pt>
 File: images/SOSTOOLS.pdf Graphic file (type pdf)
 
 <use images/SOSTOOLS.pdf>
@@ -1820,14 +1802,14 @@ Package pdftex.def Info: images/SOSTOOLS.pdf used on input line 25.
  [13
 
  <./images/SOSTOOLS.pdf>]
-<images/sos_Xregion_dBdx.pdf, id=1852, 303.80199pt x 278.373pt>
+<images/sos_Xregion_dBdx.pdf, id=1870, 303.80199pt x 278.373pt>
 File: images/sos_Xregion_dBdx.pdf Graphic file (type pdf)
 
 <use images/sos_Xregion_dBdx.pdf>
 Package pdftex.def Info: images/sos_Xregion_dBdx.pdf used on input line 70.
 (pdftex.def)             Requested size: 72.49585pt x 66.42859pt.
 
-<images/sos_errorref_1d_new_2ndorder.pdf, id=1853, 303.80199pt x 271.0125pt>
+<images/sos_errorref_1d_new_2ndorder.pdf, id=1871, 303.80199pt x 271.0125pt>
 File: images/sos_errorref_1d_new_2ndorder.pdf Graphic file (type pdf)
 
 <use images/sos_errorref_1d_new_2ndorder.pdf>
@@ -1835,7 +1817,7 @@ Package pdftex.def Info: images/sos_errorref_1d_new_2ndorder.pdf used on input
 line 70.
 (pdftex.def)             Requested size: 72.49585pt x 64.67213pt.
 
-<images/slide_sos.pdf, id=1855, 265.99374pt x 450.73393pt>
+<images/slide_sos.pdf, id=1873, 265.99374pt x 450.73393pt>
 File: images/slide_sos.pdf Graphic file (type pdf)
 
 <use images/slide_sos.pdf>
@@ -1848,101 +1830,97 @@ Package pdftex.def Info: images/slide_sos.pdf used on input line 70.
 pdfTeX warning: pdflatex (file ./images/sos_errorref_1d_new_2ndorder.pdf): PDF 
 inclusion: multiple pdfs with page group included in a single page
 > <./images/slide_sos.pdf>]) (./konklusion.tex
-<images/blowing-a-dandelion-600.jpg, id=2019, 602.25pt x 400.49625pt>
+<images/blowing-a-dandelion-600.jpg, id=2037, 602.25pt x 400.49625pt>
 File: images/blowing-a-dandelion-600.jpg Graphic file (type jpg)
 
 <use images/blowing-a-dandelion-600.jpg>
 Package pdftex.def Info: images/blowing-a-dandelion-600.jpg used on input line 
-26.
+28.
 (pdftex.def)             Requested size: 97.5947pt x 64.89958pt.
 
-<images/TwoPaths-900x470.jpg, id=2020, 903.375pt x 471.7625pt>
+<images/TwoPaths-900x470.jpg, id=2038, 903.375pt x 471.7625pt>
 File: images/TwoPaths-900x470.jpg Graphic file (type jpg)
 
 <use images/TwoPaths-900x470.jpg>
-Package pdftex.def Info: images/TwoPaths-900x470.jpg used on input line 26.
+Package pdftex.def Info: images/TwoPaths-900x470.jpg used on input line 28.
 (pdftex.def)             Requested size: 97.5947pt x 50.96542pt.
 
-<images/path-to-success.jpg, id=2021, 552.0625pt x 301.125pt>
+<images/path-to-success.jpg, id=2039, 552.0625pt x 301.125pt>
 File: images/path-to-success.jpg Graphic file (type jpg)
 
 <use images/path-to-success.jpg>
-Package pdftex.def Info: images/path-to-success.jpg used on input line 26.
+Package pdftex.def Info: images/path-to-success.jpg used on input line 28.
 (pdftex.def)             Requested size: 97.5947pt x 53.23065pt.
-
-Overfull \vbox (5.13945pt too high) detected at line 26
- []
-
-[15
+ [15
 
  <./images/blowing-a-dandelion-600.jpg> <./images/TwoPaths-900x470.jpg> <./imag
 es/path-to-success.jpg>]
-<images/checklist.jpg, id=2036, 391.4625pt x 284.7438pt>
+<images/checklist.jpg, id=2054, 391.4625pt x 284.7438pt>
 File: images/checklist.jpg Graphic file (type jpg)
 
 <use images/checklist.jpg>
-Package pdftex.def Info: images/checklist.jpg used on input line 44.
+Package pdftex.def Info: images/checklist.jpg used on input line 46.
 (pdftex.def)             Requested size: 75.2872pt x 54.7623pt.
 
-<images/p01tgd39.jpg, id=2037, 450.9648pt x 253.6677pt>
+<images/p01tgd39.jpg, id=2055, 450.9648pt x 253.6677pt>
 File: images/p01tgd39.jpg Graphic file (type jpg)
 
 <use images/p01tgd39.jpg>
-Package pdftex.def Info: images/p01tgd39.jpg used on input line 44.
+Package pdftex.def Info: images/p01tgd39.jpg used on input line 46.
 (pdftex.def)             Requested size: 97.5947pt x 54.89359pt.
 
-<images/9212_fit512.jpg, id=2038, 513.92pt x 513.92pt>
+<images/9212_fit512.jpg, id=2056, 513.92pt x 513.92pt>
 File: images/9212_fit512.jpg Graphic file (type jpg)
 
 <use images/9212_fit512.jpg>
-Package pdftex.def Info: images/9212_fit512.jpg used on input line 44.
+Package pdftex.def Info: images/9212_fit512.jpg used on input line 46.
 (pdftex.def)             Requested size: 55.76657pt x 55.76288pt.
  [16
 
  <./images/checklist.jpg> <./images/p01tgd39.jpg> <./images/9212_fit512.jpg>]
-<images/sostools_eval.pdf, id=2054, 541.8657pt x 83.12938pt>
+<images/sostools_eval.pdf, id=2072, 541.8657pt x 83.12938pt>
 File: images/sostools_eval.pdf Graphic file (type pdf)
 
 <use images/sostools_eval.pdf>
-Package pdftex.def Info: images/sostools_eval.pdf used on input line 64.
+Package pdftex.def Info: images/sostools_eval.pdf used on input line 66.
 (pdftex.def)             Requested size: 278.83713pt x 42.77849pt.
  [17
 
  <./images/sostools_eval.pdf>]
-<images/The-Weak-Link-in-the-Chain-474557-2.jpg, id=2090, 1053.9375pt x 702.625
+<images/The-Weak-Link-in-the-Chain-474557-2.jpg, id=2108, 1053.9375pt x 702.625
 pt>
 File: images/The-Weak-Link-in-the-Chain-474557-2.jpg Graphic file (type jpg)
  <use images/The-Weak-Link-in-the-Chain-474557-2.jpg>
 Package pdftex.def Info: images/The-Weak-Link-in-the-Chain-474557-2.jpg used on
- input line 99.
+ input line 101.
 (pdftex.def)             Requested size: 83.65198pt x 55.76085pt.
 
-<images/work_with_us.jpg, id=2091, 582.175pt x 301.125pt>
+<images/work_with_us.jpg, id=2109, 582.175pt x 301.125pt>
 File: images/work_with_us.jpg Graphic file (type jpg)
 
 <use images/work_with_us.jpg>
-Package pdftex.def Info: images/work_with_us.jpg used on input line 99.
+Package pdftex.def Info: images/work_with_us.jpg used on input line 101.
 (pdftex.def)             Requested size: 83.65198pt x 43.26454pt.
 
-<images/chain-links-WEB.jpg, id=2092, 401.5pt x 200.75pt>
+<images/chain-links-WEB.jpg, id=2110, 401.5pt x 200.75pt>
 File: images/chain-links-WEB.jpg Graphic file (type jpg)
 
 <use images/chain-links-WEB.jpg>
-Package pdftex.def Info: images/chain-links-WEB.jpg used on input line 99.
+Package pdftex.def Info: images/chain-links-WEB.jpg used on input line 101.
 (pdftex.def)             Requested size: 83.65198pt x 41.82484pt.
  [18
 
  <./images/The-Weak-Link-in-the-Chain-474557-2.jpg> <./images/work_with_us.jpg>
  <./images/chain-links-WEB.jpg>])
-Overfull \hbox (56.9055pt too wide) in paragraph at lines 90--90
+Overfull \hbox (56.9055pt too wide) in paragraph at lines 91--91
 []$[]$ 
  []
 
-<images/AAUgraphics/aau_waves.pdf, id=2108, 845.1575pt x 598.235pt>
+<images/AAUgraphics/aau_waves.pdf, id=2127, 845.1575pt x 598.235pt>
 File: images/AAUgraphics/aau_waves.pdf Graphic file (type pdf)
 
 <use images/AAUgraphics/aau_waves.pdf>
-Package pdftex.def Info: images/AAUgraphics/aau_waves.pdf used on input line 90
+Package pdftex.def Info: images/AAUgraphics/aau_waves.pdf used on input line 91
 .
 (pdftex.def)             Requested size: 364.1973pt x 273.1467pt.
  [19
@@ -1957,20 +1935,20 @@ Package pdftex.def Info: images/AAUgraphics/aau_waves.pdf used on input line 90
 \tf@snm=\write8
 \openout8 = `aalborgtheme.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
  (./aalborgtheme.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
 Package rerunfilecheck Info: File `aalborgtheme.out' has not changed.
 (rerunfilecheck)             Checksum: 2265BB878DCBD2EE14FB7D4EDECAC0E3;496.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 93.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
  ) 
 Here is how much of TeX's memory you used:
- 21338 strings out of 494958
- 394897 string characters out of 6179213
- 479005 words of memory out of 5000000
- 23924 multiletter control sequences out of 15000+600000
+ 21344 strings out of 494958
+ 395044 string characters out of 6179213
+ 480152 words of memory out of 5000000
+ 23928 multiletter control sequences out of 15000+600000
  51260 words of font info for 61 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  52i,21n,63p,411b,1071s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1982,16 +1960,15 @@ onts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam5
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on aalborgtheme.pdf (19 pages, 11129408 bytes).
+/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbol
+s/msam5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/
+msam7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on aalborgtheme.pdf (19 pages, 11291198 bytes).
 PDF statistics:
- 2176 PDF objects out of 2487 (max. 8388607)
- 676 compressed objects within 7 object streams
+ 2191 PDF objects out of 2487 (max. 8388607)
+ 686 compressed objects within 7 object streams
  47 named destinations out of 1000 (max. 500000)
  343 words of extra memory for PDF output out of 10000 (max. 10000000)
 
