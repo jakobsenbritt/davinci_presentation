@@ -3,13 +3,12 @@
 \begin{minipage}{0.6\textwidth}
 \begin{block}{}
 	\begin{itemize}
-		\item \textbf{Et narturligt ønske:}\\ - Sikkerhed og virtual fixture
-		\item \textbf{Opdelt løsningsstrategi:}\\ - Design og Analyse 
+		\item \textbf{Et naturligt ønske:}\\ - Sikkerhed og virtuel fikstur
+		\item \textbf{Opdelt løsningsstrategi:}\\ - Design og Analyse \\
+		- Success i begge tilgange 
 		\vspace{0.3cm}
 		\item Sikkerhed \underline{kan} garanteres
 		\item virtual fixture \underline{kan} opnås
-		\item Success i begge tilgange \\
-		\scriptsize - design og analyse
 		\item \normalsize Interfacing gennem ROS er klargjort + kortlægning af den kinematiske kæde og IK.
 		\item En stejl læringskurve er brudt \\ 
 		\scriptsize - der kan arbejdes videre på projektet
@@ -29,7 +28,7 @@
 
 \begin{frame}{Konklusion}{Konklusion på design tilgangen}
 \begin{itemize}
-	\item Relativ intuitiv design procedure \\	\vspace*{0.08cm}
+	\item Relativt intuitiv designprocedure \\	\vspace*{0.08cm}
 	\scriptsize {\color{white}{m}} 1. Lav model \\	
     \scriptsize {\color{white}{m}} 2. Konstruer CBF udfra fysiske forhold og beregn Lie afledede\\	
     \scriptsize {\color{white}{m}} 3. Specificer $\epsilon$ sådan at $\mathcal{T}$ er "tilpas" \\	
@@ -49,7 +48,7 @@
 
 \begin{frame}{Konklusion}{konklusion på analyse tilgangen}
 \begin{itemize}
-	\item Global (SOS) til lokal (putinar positivstellensatz)
+	\item Global (SOS) til lokal (Putinars Positivstellensatz)
 	\item Et framework er udviklet
 \end{itemize}
 
@@ -71,18 +70,18 @@
 	\begin{itemize}
 		%\item Fejl-tolerant kontrol % \\ 
 		%\scriptsize {\color{white}{m}} - Hvad hvis vi mister en sensor?
-		\item \normalsize Kompleksitet af barrier funktioner
+		\item \normalsize Kompleksitet af barrierefunktioner
 		\item \normalsize Robust/fejl-tolerent kontrol %\\ 
 %		\scriptsize {\color{white}{m}} - Modeller vil altid være forsimplet!
-		\item \normalsize Inkorporere Integral virkning \\ 
+		\item \normalsize Inkorporere integralvirkning \\ 
 		\scriptsize {\color{white}{m}} - især tydeligt ved det dynamiske system
 %		\item lave en tre delining i $\mathcal{T}$
 		\item \normalsize End effector orientering \\
 		\scriptsize {\color{white}{m}} -  Sikre sikkerhed for rammen
 		\item \normalsize  Trajektorie planlægning \\ 
 		\scriptsize {\color{white}{m}} - hvis springet mellem \textit{x} og \textit{x}$_{\text{ref}}$ er for stort
-		\item \normalsize Tachometer kan blive "forvirret"
-		\item Skræddersy IK solver
+%		\item \normalsize Tachometer kan blive "forvirret"
+		\item \normalsize Skræddersy IK solver
 		\item Øge sampling rate til 2\,kHz \\
 		\scriptsize {\color{white}{m}} - UDP i stedet for TCP/IP
 		\item \normalsize  Monte Carlo simulering ved brug af SOSTOOLS framework

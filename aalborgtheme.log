@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.14)  14 JUN 2015 11:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.14)  14 JUN 2015 17:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -984,17 +984,6 @@ LaTeX Info: Redefining \textlatin on input line 137.
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen199
-\extrarowheight=\dimen200
-\NC@list=\toks44
-\extratabsurround=\skip64
-\backup@length=\skip65
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/hhline.sty
-Package: hhline 1994/05/23 v2.03 Table rule package (DPC)
-)
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2013/08/25 v0.4v Insert pages of external PDF documents (AM)
 
@@ -1008,17 +997,9 @@ Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
 File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box56
-\AM@toc@title=\toks45
+\AM@toc@title=\toks44
 \c@AM@survey=\count166
 \AM@templatesizebox=\box57
-)
-(/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
-Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
-\c@r@tfl@t=\count167
-\rotFPtop=\skip66
-\rotFPbot=\skip67
-\rot@float@box=\box58
-\rot@mess@toks=\toks46
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
@@ -1032,39 +1013,49 @@ Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen199
+\extrarowheight=\dimen200
+\NC@list=\toks45
+\extratabsurround=\skip64
+\backup@length=\skip65
+)
 \TX@col@width=\dimen201
 \TX@old@table=\dimen202
 \TX@old@col=\dimen203
 \TX@target=\dimen204
 \TX@delta=\dimen205
-\TX@cols=\count168
-\TX@ftn=\toks47
+\TX@cols=\count167
+\TX@ftn=\toks46
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen206
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
-\c@tracingmulticols=\count169
-\mult@box=\box59
+\c@tracingmulticols=\count168
+\mult@box=\box58
 \multicol@leftmargin=\dimen207
-\c@unbalance=\count170
-\c@collectmore=\count171
-\doublecol@number=\count172
-\multicoltolerance=\count173
-\multicolpretolerance=\count174
+\c@unbalance=\count169
+\c@collectmore=\count170
+\doublecol@number=\count171
+\multicoltolerance=\count172
+\multicolpretolerance=\count173
 \full@width=\dimen208
 \page@free=\dimen209
 \premulticols=\dimen210
 \postmulticols=\dimen211
-\multicolsep=\skip68
-\multicolbaselineskip=\skip69
-\partial@page=\box60
-\last@line=\box61
-\mult@rightbox=\box62
-\mult@grightbox=\box63
-\mult@gfirstbox=\box64
-\mult@firstbox=\box65
+\multicolsep=\skip66
+\multicolbaselineskip=\skip67
+\partial@page=\box59
+\last@line=\box60
+\mult@rightbox=\box61
+\mult@grightbox=\box62
+\mult@gfirstbox=\box63
+\mult@firstbox=\box64
+\@tempa=\box65
 \@tempa=\box66
 \@tempa=\box67
 \@tempa=\box68
@@ -1081,22 +1072,21 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \@tempa=\box79
 \@tempa=\box80
 \@tempa=\box81
-\@tempa=\box82
-\c@columnbadness=\count175
-\c@finalcolumnbadness=\count176
+\c@columnbadness=\count174
+\c@finalcolumnbadness=\count175
 \last@try=\dimen212
 \multicolovershoot=\dimen213
 \multicolundershoot=\dimen214
-\mult@nat@firstbox=\box83
-\colbreak@box=\box84
-\multicol@sort@counter=\count177
+\mult@nat@firstbox=\box82
+\colbreak@box=\box83
+\multicol@sort@counter=\count176
 )
 (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen215
 \WF@size=\dimen216
-\c@WF@wrappedlines=\count178
-\WF@box=\box85
-\WF@everypar=\toks48
+\c@WF@wrappedlines=\count177
+\WF@box=\box84
+\WF@everypar=\toks47
 Package: wrapfig 2003/01/31  v 3.6
 )
 (/usr/share/texlive/texmf-dist/tex/latex/import/import.sty
@@ -1104,58 +1094,26 @@ Package: import 2009/03/23  v 5.1
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip70
-\LTright=\skip71
-\LTpre=\skip72
-\LTpost=\skip73
-\LTchunksize=\count179
+\LTleft=\skip68
+\LTright=\skip69
+\LTpre=\skip70
+\LTpost=\skip71
+\LTchunksize=\count178
 \LTcapwidth=\dimen217
-\LT@head=\box86
-\LT@firsthead=\box87
-\LT@foot=\box88
-\LT@lastfoot=\box89
-\LT@cols=\count180
-\LT@rows=\count181
-\c@LT@tables=\count182
-\c@LT@chunks=\count183
-\LT@p@ftn=\toks49
+\LT@head=\box85
+\LT@firsthead=\box86
+\LT@foot=\box87
+\LT@lastfoot=\box88
+\LT@cols=\count179
+\LT@rows=\count180
+\c@LT@tables=\count181
+\c@LT@chunks=\count182
+\LT@p@ftn=\toks48
 )
 (/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
-\everycr=\toks50
-\minrowclearance=\skip74
-)
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen218
-\captionmargin@=\dimen219
-\captionwidth=\dimen220
-\caption@tempdima=\dimen221
-\caption@indent=\dimen222
-\caption@parindent=\dimen223
-\caption@hangindent=\dimen224
-)
-\c@ContinuedFloat=\count184
-Package caption Info: beamer document class.
-Package caption Info: hyperref package is loaded.
-Package caption Info: Hyperref support is turned off
-(caption)             because hyperref has stopped early.
-Package caption Info: longtable package is loaded.
-
-(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
-Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
-)
-Package caption Info: rotating package is loaded.
-Package caption Info: wrapfig package is loaded.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
-\c@subfigure=\count185
-\c@subtable=\count186
+\everycr=\toks49
+\minrowclearance=\skip72
 )
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
@@ -1175,24 +1133,28 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 )))
+(/usr/share/texmf/tex/latex/beamer/base/multimedia/multimedia.sty
+Package: multimedia 2012/05/02 ver 0.02
+\mm@movie=\count183
+)
 (./aalborgtheme.aux)
 \openout1 = `aalborgtheme.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 88.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 89.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
@@ -1232,20 +1194,20 @@ File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count187
-\scratchdimen=\dimen225
-\scratchbox=\box90
-\nofMPsegments=\count188
-\nofMParguments=\count189
-\everyMPshowfont=\toks51
-\MPscratchCnt=\count190
-\MPscratchDim=\dimen226
-\MPnumerator=\count191
-\makeMPintoPDFobject=\count192
-\everyMPtoPDFconversion=\toks52
+\scratchcounter=\count184
+\scratchdimen=\dimen218
+\scratchbox=\box89
+\nofMPsegments=\count185
+\nofMParguments=\count186
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count187
+\MPscratchDim=\dimen219
+\MPnumerator=\count188
+\makeMPintoPDFobject=\count189
+\everyMPtoPDFconversion=\toks51
 ) ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box91
-Package hyperref Info: Link coloring OFF on input line 88.
+\AtBeginShipoutBox=\box90
+Package hyperref Info: Link coloring OFF on input line 89.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1253,58 +1215,58 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count193
+\c@section@level=\count190
 )
-LaTeX Info: Redefining \ref on input line 88.
-LaTeX Info: Redefining \pageref on input line 88.
-LaTeX Info: Redefining \nameref on input line 88.
+LaTeX Info: Redefining \ref on input line 89.
+LaTeX Info: Redefining \pageref on input line 89.
+LaTeX Info: Redefining \nameref on input line 89.
 
 (./aalborgtheme.out) (./aalborgtheme.out)
 \@outlinefile=\write5
 \openout5 = `aalborgtheme.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 88.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 89.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 88.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 89.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 88.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 88.
+(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 89.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 89.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 88.
+(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 89.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 88.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 88.
+(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 89.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 89.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 88.
+(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 89.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 88.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 88.
+(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 89.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 89.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 88.
+(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 89.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 88.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 88.
+(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 89.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 89.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 88.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 89.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 88.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 89.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 88.
+(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 89.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 88.
+(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 89.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmr/bx/n on input line 88.
+(Font)                  OT1/cmss/bx/n --> T1/cmr/bx/n on input line 89.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/phv/bx/n --> T1/phv/bx/n on input line 88.
+(Font)                  T1/phv/bx/n --> T1/phv/bx/n on input line 89.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 88.
+(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 89.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 88.
+(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 89.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/bx/n on input line 88.
+(Font)                  T1/cmtt/m/n --> T1/cmtt/bx/n on input line 89.
 
 (/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-basic-dicti
 onary/translator-basic-dictionary-English.dict
@@ -1330,24 +1292,26 @@ Dictionary: translator-numbers-dictionary, Language: English
 tionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 88.
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: End \AtBeginDocument code.
+LaTeX Info: Redefining \includegraphics on input line 89.
  (./aalborgtheme.nav)
+
+Package geometry Warning: `width' results in NEGATIVE (-28.45267pt).
+    `lmargin' or `rmargin' should be shortened in length.
+
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: custom
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(0.0pt, 364.19536pt, 0.0pt)
+* h-part:(L,W,R)=(392.64803pt, -28.45267pt, 0.0pt)
 * v-part:(T,H,B)=(-273.14645pt, 546.29308pt, 0.0pt)
 * \paperwidth=364.19536pt
 * \paperheight=273.14662pt
-* \textwidth=364.19536pt
+* \textwidth=-28.45267pt
 * \textheight=546.29308pt
-* \oddsidemargin=-72.26999pt
-* \evensidemargin=-72.26999pt
+* \oddsidemargin=320.37804pt
+* \evensidemargin=320.37804pt
 * \topmargin=-359.6428pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
@@ -1366,50 +1330,54 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-<images/thesis_presentation.pdf, id=54, 364.19562pt x 273.14648pt>
+<images/thesis_presentation.pdf, id=55, 364.19562pt x 273.14648pt>
 File: images/thesis_presentation.pdf Graphic file (type pdf)
 
 <use images/thesis_presentation.pdf>
-Package pdftex.def Info: images/thesis_presentation.pdf used on input line 91.
+Package pdftex.def Info: images/thesis_presentation.pdf used on input line 95.
 (pdftex.def)             Requested size: 364.19473pt x 273.14581pt.
 File: images/thesis_presentation.pdf Graphic file (type pdf)
  <use images/thesis_presentation.pdf>
-Package pdftex.def Info: images/thesis_presentation.pdf used on input line 91.
+Package pdftex.def Info: images/thesis_presentation.pdf used on input line 95.
 (pdftex.def)             Requested size: 364.19473pt x 273.14581pt.
 
-<images/thesis_presentation.pdf, id=57, page=1, 364.19562pt x 273.14648pt>
+<images/thesis_presentation.pdf, id=58, page=1, 364.19562pt x 273.14648pt>
 File: images/thesis_presentation.pdf Graphic file (type pdf)
 
 <use images/thesis_presentation.pdf, page 1>
 Package pdftex.def Info: images/thesis_presentation.pdf, page1 used on input li
-ne 91.
+ne 95.
 (pdftex.def)             Requested size: 364.19473pt x 273.14581pt.
 File: images/thesis_presentation.pdf Graphic file (type pdf)
 
 <use images/thesis_presentation.pdf, page 1>
 Package pdftex.def Info: images/thesis_presentation.pdf, page1 used on input li
-ne 91.
+ne 95.
 (pdftex.def)             Requested size: 364.38922pt x 273.29169pt.
 File: images/thesis_presentation.pdf Graphic file (type pdf)
 
 <use images/thesis_presentation.pdf, page 1>
 Package pdftex.def Info: images/thesis_presentation.pdf, page1 used on input li
-ne 91.
+ne 95.
 (pdftex.def)             Requested size: 364.38922pt x 273.29169pt.
 File: images/thesis_presentation.pdf Graphic file (type pdf)
 
 <use images/thesis_presentation.pdf, page 1>
 Package pdftex.def Info: images/thesis_presentation.pdf, page1 used on input li
-ne 91.
+ne 95.
 (pdftex.def)             Requested size: 364.38922pt x 273.29169pt.
-File: images/thesis_presentation.pdf Graphic file (type pdf)
 
+Overfull \hbox (28.45267pt too wide) in paragraph at lines 95--95
+[]  
+ []
+
+File: images/thesis_presentation.pdf Graphic file (type pdf)
 <use images/thesis_presentation.pdf, page 1>
 Package pdftex.def Info: images/thesis_presentation.pdf, page1 used on input li
-ne 91.
+ne 95.
 (pdftex.def)             Requested size: 364.38922pt x 273.29169pt.
  [1
+
 
 
  <./images/thesis_presentation.pdf>] (./presentation.tex
@@ -1434,63 +1402,82 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
  [2{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  <./images/AAUgraphics/aau_logo_new.pdf>])
-(./background.tex <images/coffee_robot.png, id=115, 180.675pt x 120.45pt>
+(./background.tex <images/coffee_robot.png, id=116, 180.675pt x 120.45pt>
 File: images/coffee_robot.png Graphic file (type png)
 
 <use images/coffee_robot.png>
-Package pdftex.def Info: images/coffee_robot.png used on input line 38.
-(pdftex.def)             Requested size: 139.41856pt x 92.94527pt.
+Package pdftex.def Info: images/coffee_robot.png used on input line 32.
+(pdftex.def)             Requested size: 181.24242pt x 120.8283pt.
 
-Overfull \vbox (23.912pt too high) detected at line 38
+Overfull \vbox (21.03932pt too high) detected at line 32
  []
 
 [3
 
  <./images/coffee_robot.png>]
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 102.
+<images/nerves.jpg, id=134, 451.6875pt x 339.51843pt>
+File: images/nerves.jpg Graphic file (type jpg)
+ <use images/nerves.jpg>
+Package pdftex.def Info: images/nerves.jpg used on input line 83.
+(pdftex.def)             Requested size: 97.5947pt x 73.35768pt.
 
-<images/safety.pdf, id=133, 236.70433pt x 112.67998pt>
+<images/Blood-Clots-in-Vein.jpg, id=135, 1128.215pt x 566.115pt>
+File: images/Blood-Clots-in-Vein.jpg Graphic file (type jpg)
+
+<use images/Blood-Clots-in-Vein.jpg>
+Package pdftex.def Info: images/Blood-Clots-in-Vein.jpg used on input line 83.
+(pdftex.def)             Requested size: 97.5947pt x 48.97pt.
+
+<images/COLOURBOX6514659.jpg, id=136, 2509.375pt x 1403.2425pt>
+File: images/COLOURBOX6514659.jpg Graphic file (type jpg)
+
+<use images/COLOURBOX6514659.jpg>
+Package pdftex.def Info: images/COLOURBOX6514659.jpg used on input line 83.
+(pdftex.def)             Requested size: 97.5947pt x 54.55708pt.
+ [4
+
+ <./images/nerves.jpg> <./images/Blood-Clots-in-Vein.jpg> <./images/COLOURBOX65
+14659.jpg>]
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 117.
+
+<images/safety.pdf, id=152, 236.70433pt x 112.67998pt>
 File: images/safety.pdf Graphic file (type pdf)
  <use images/safety.pdf>
-Package pdftex.def Info: images/safety.pdf used on input line 102.
+Package pdftex.def Info: images/safety.pdf used on input line 117.
 (pdftex.def)             Requested size: 153.36127pt x 73.00555pt.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 102.
-
-[4
-
- <./images/safety.pdf>]
-Overfull \hbox (4.46828pt too wide) in paragraph at lines 158--158
-[]  
- []
-
-
-Overfull \vbox (23.41417pt too high) detected at line 158
- []
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 117.
 
 [5
 
-]) (./design.tex <images/simple.jpg, id=190, 1003.75pt x 1454.43375pt>
+ <./images/safety.pdf>]
+Overfull \hbox (4.46828pt too wide) in paragraph at lines 173--173
+[]  
+ []
+
+[6
+
+]) (./design.tex <images/simple.jpg, id=209, 1003.75pt x 1454.43375pt>
 File: images/simple.jpg Graphic file (type jpg)
 
 <use images/simple.jpg>
 Package pdftex.def Info: images/simple.jpg used on input line 29.
 (pdftex.def)             Requested size: 43.9173pt x 63.62688pt.
- <images/tri.png, id=191, 375.4025pt x 541.02126pt>
+ <images/tri.png, id=210, 375.4025pt x 541.02126pt>
 File: images/tri.png Graphic file (type png)
 
 <use images/tri.png>
 Package pdftex.def Info: images/tri.png used on input line 29.
 (pdftex.def)             Requested size: 43.9173pt x 63.28519pt.
- <images/human-heart.jpg, id=192, 240.9pt x 160.6803pt>
+ <images/human-heart.jpg, id=211, 240.9pt x 160.6803pt>
 File: images/human-heart.jpg Graphic file (type jpg)
 
 <use images/human-heart.jpg>
 Package pdftex.def Info: images/human-heart.jpg used on input line 29.
 (pdftex.def)             Requested size: 75.28627pt x 50.21492pt.
 
-<images/SIIB.jpg, id=193, 1704.3675pt x 890.32625pt>
+<images/SIIB.jpg, id=212, 1704.3675pt x 890.32625pt>
 File: images/SIIB.jpg Graphic file (type jpg)
  <use images/SIIB.jpg>
 Package pdftex.def Info: images/SIIB.jpg used on input line 29.
@@ -1505,11 +1492,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--29
 []
  []
 
-
-Overfull \vbox (3.61084pt too high) detected at line 29
- []
-
-[6
+[7
 
  <./images/simple.jpg> <./images/tri.png> <./images/human-heart.jpg> <./images/
 SIIB.jpg>]
@@ -1524,7 +1507,7 @@ d-to.pdf images/cbf_1d.eps>
 (epstopdf)             \includegraphics on input line 81.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/cbf_1d-eps-converted-to.pdf, id=209, 765.86125pt x 456.70625pt>
+<images/cbf_1d-eps-converted-to.pdf, id=229, 765.86125pt x 456.70625pt>
 File: images/cbf_1d-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/cbf_1d-eps-converted-to.pdf>
@@ -1542,7 +1525,7 @@ d-to.pdf images/cbf_2d.eps>
 (epstopdf)             \includegraphics on input line 81.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/cbf_2d-eps-converted-to.pdf, id=210, 522.95375pt x 354.32375pt>
+<images/cbf_2d-eps-converted-to.pdf, id=230, 522.95375pt x 354.32375pt>
 File: images/cbf_2d-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/cbf_2d-eps-converted-to.pdf>
@@ -1550,7 +1533,7 @@ Package pdftex.def Info: images/cbf_2d-eps-converted-to.pdf used on input line
 81.
 (pdftex.def)             Requested size: 58.92067pt x 39.91646pt.
 
-<images/slidemovefigure.pdf, id=211, 789.57129pt x 699.06667pt>
+<images/slidemovefigure.pdf, id=231, 789.57129pt x 699.06667pt>
 File: images/slidemovefigure.pdf Graphic file (type pdf)
 
 <use images/slidemovefigure.pdf>
@@ -1567,117 +1550,113 @@ ted-to.pdf images/model_1d.eps>
 (epstopdf)             \includegraphics on input line 81.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/model_1d-eps-converted-to.pdf, id=212, 444.66125pt x 354.32375pt>
+<images/model_1d-eps-converted-to.pdf, id=232, 444.66125pt x 354.32375pt>
 File: images/model_1d-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/model_1d-eps-converted-to.pdf>
 Package pdftex.def Info: images/model_1d-eps-converted-to.pdf used on input lin
 e 81.
 (pdftex.def)             Requested size: 107.35475pt x 85.54224pt.
- [7
+ [8
 
  <./images/cbf_1d-eps-converted-to.pdf> <./images/cbf_2d-eps-converted-to.pdf> 
 <./images/slidemovefigure.pdf> <./images/model_1d-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <images/vary_kappa.eps>
-(epstopdf)                    date: 2015-06-10 21:12:00
-(epstopdf)                    size: 361511 bytes
-(epstopdf)             Output file: <images/vary_kappa-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-06-10 21:12:03
-(epstopdf)                    size: 61003 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/vary_kappa-eps-conv
-erted-to.pdf images/vary_kappa.eps>
-(epstopdf)             \includegraphics on input line 112.
+Package epstopdf Info: Source file: <images/kappa1sim.eps>
+(epstopdf)                    date: 2015-06-14 17:24:15
+(epstopdf)                    size: 318743 bytes
+(epstopdf)             Output file: <images/kappa1sim-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-14 17:24:24
+(epstopdf)                    size: 21237 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/kappa1sim-eps-conve
+rted-to.pdf images/kappa1sim.eps>
+(epstopdf)             \includegraphics on input line 109.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/vary_kappa-eps-converted-to.pdf, id=295, 675.52374pt x 533.995pt>
-File: images/vary_kappa-eps-converted-to.pdf Graphic file (type pdf)
+<images/kappa1sim-eps-converted-to.pdf, id=315, 670.505pt x 455.7025pt>
+File: images/kappa1sim-eps-converted-to.pdf Graphic file (type pdf)
 
-<use images/vary_kappa-eps-converted-to.pdf>
-Package pdftex.def Info: images/vary_kappa-eps-converted-to.pdf used on input l
-ine 112.
-(pdftex.def)             Requested size: 133.84062pt x 105.79489pt.
+<use images/kappa1sim-eps-converted-to.pdf>
+Package pdftex.def Info: images/kappa1sim-eps-converted-to.pdf used on input li
+ne 109.
+(pdftex.def)             Requested size: 133.84062pt x 90.95808pt.
 Package epstopdf Info: Source file: <images/plot_states_nem.eps>
-(epstopdf)                    date: 2015-06-11 10:17:01
-(epstopdf)                    size: 1757175 bytes
+(epstopdf)                    date: 2015-06-14 17:34:27
+(epstopdf)                    size: 385507 bytes
 (epstopdf)             Output file: <images/plot_states_nem-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2015-06-11 10:17:03
-(epstopdf)                    size: 25029 bytes
+(epstopdf)                    date: 2015-06-14 17:34:29
+(epstopdf)                    size: 21379 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/plot_states_nem-eps
 -converted-to.pdf images/plot_states_nem.eps>
-(epstopdf)             \includegraphics on input line 112.
+(epstopdf)             \includegraphics on input line 109.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/plot_states_nem-eps-converted-to.pdf, id=296, 511.9125pt x 214.8025pt>
+<images/plot_states_nem-eps-converted-to.pdf, id=316, 722.7pt x 306.14375pt>
 File: images/plot_states_nem-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/plot_states_nem-eps-converted-to.pdf>
 Package pdftex.def Info: images/plot_states_nem-eps-converted-to.pdf used on in
-put line 112.
-(pdftex.def)             Requested size: 133.84062pt x 56.15869pt.
+put line 109.
+(pdftex.def)             Requested size: 133.84062pt x 56.69643pt.
+Package epstopdf Info: Source file: <images/kappa2sim.eps>
+(epstopdf)                    date: 2015-06-14 17:30:53
+(epstopdf)                    size: 301958 bytes
+(epstopdf)             Output file: <images/kappa2sim-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-14 17:31:01
+(epstopdf)                    size: 24801 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/kappa2sim-eps-conve
+rted-to.pdf images/kappa2sim.eps>
+(epstopdf)             \includegraphics on input line 109.
+Package epstopdf Info: Output file is already uptodate.
 
-<images/trajectory_slide_meas_1-eps-converted-to.pdf, id=297, 721.27965pt x 528
+<images/kappa2sim-eps-converted-to.pdf, id=317, 670.505pt x 455.7025pt>
+File: images/kappa2sim-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/kappa2sim-eps-converted-to.pdf>
+Package pdftex.def Info: images/kappa2sim-eps-converted-to.pdf used on input li
+ne 109.
+(pdftex.def)             Requested size: 133.84062pt x 90.95808pt.
+
+<images/trajectory_slide_meas_1-eps-converted-to.pdf, id=318, 721.27965pt x 528
 .97626pt>
 File: images/trajectory_slide_meas_1-eps-converted-to.pdf Graphic file (type pd
 f)
  <use images/trajectory_slide_meas_1-eps-converted-to.pdf>
 Package pdftex.def Info: images/trajectory_slide_meas_1-eps-converted-to.pdf us
-ed on input line 112.
+ed on input line 109.
 (pdftex.def)             Requested size: 133.84062pt x 98.15771pt.
+ [9
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-[]\T1/phv/m/n/10 white[]
- []
-
-
-<images/meas_trajectory_2_order-eps-converted-to.pdf, id=298, 712.6625pt x 518.
-93875pt>
-File: images/meas_trajectory_2_order-eps-converted-to.pdf Graphic file (type pd
-f)
- <use images/meas_trajectory_2_order-eps-converted-to.pdf>
-Package pdftex.def Info: images/meas_trajectory_2_order-eps-converted-to.pdf us
-ed on input line 112.
-(pdftex.def)             Requested size: 133.84062pt x 97.45914pt.
-
-Overfull \vbox (11.08553pt too high) detected at line 112
- []
-
-[8
-
- <./images/vary_kappa-eps-converted-to.pdf> <./images/plot_states_nem-eps-conve
-rted-to.pdf> <./images/trajectory_slide_meas_1-eps-converted-to.pdf> <./images/
-meas_trajectory_2_order-eps-converted-to.pdf>]
-<images/dynamic_boundary_limits.pdf, id=396, 321.81831pt x 459.68037pt>
+ <./images/kappa1sim-eps-converted-to.pdf> <./images/plot_states_nem-eps-conver
+ted-to.pdf> <./images/kappa2sim-eps-converted-to.pdf> <./images/trajectory_slid
+e_meas_1-eps-converted-to.pdf>]
+<images/dynamic_boundary_limits.pdf, id=421, 321.81831pt x 459.68037pt>
 File: images/dynamic_boundary_limits.pdf Graphic file (type pdf)
 
 <use images/dynamic_boundary_limits.pdf>
 Package pdftex.def Info: images/dynamic_boundary_limits.pdf used on input line 
-153.
+150.
 (pdftex.def)             Requested size: 48.79735pt x 69.69958pt.
 
-<images/dynamic_boundary_sequence.pdf, id=397, 1372.27684pt x 458.06534pt>
+<images/dynamic_boundary_sequence.pdf, id=422, 1372.27684pt x 458.06534pt>
 File: images/dynamic_boundary_sequence.pdf Graphic file (type pdf)
 
 <use images/dynamic_boundary_sequence.pdf>
 Package pdftex.def Info: images/dynamic_boundary_sequence.pdf used on input lin
-e 153.
+e 150.
 (pdftex.def)             Requested size: 209.12784pt x 69.80418pt.
 
-<images/barrier.jpg, id=398, 763.85374pt x 658.46pt>
+<images/barrier.jpg, id=423, 763.85374pt x 658.46pt>
 File: images/barrier.jpg Graphic file (type jpg)
  <use images/barrier.jpg>
-Package pdftex.def Info: images/barrier.jpg used on input line 153.
+Package pdftex.def Info: images/barrier.jpg used on input line 150.
 (pdftex.def)             Requested size: 52.28195pt x 45.06203pt.
 
-Overfull \hbox (3.03624pt too wide) in paragraph at lines 153--153
+Overfull \hbox (3.03624pt too wide) in paragraph at lines 150--150
 [] 
  []
 
-
-Overfull \vbox (3.49947pt too high) detected at line 153
- []
-
-[9
+[10
 
  <./images/dynamic_boundary_limits.pdf> <./images/dynamic_boundary_sequence.pdf
 
@@ -1693,18 +1672,18 @@ Package epstopdf Info: Source file: <images/dyn.eps>
 (epstopdf)                    size: 263126 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/dyn-eps-converted-t
 o.pdf images/dyn.eps>
-(epstopdf)             \includegraphics on input line 171.
+(epstopdf)             \includegraphics on input line 168.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/dyn-eps-converted-to.pdf, id=532, 443.6575pt x 480.79625pt>
+<images/dyn-eps-converted-to.pdf, id=557, 443.6575pt x 480.79625pt>
 File: images/dyn-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/dyn-eps-converted-to.pdf>
-Package pdftex.def Info: images/dyn-eps-converted-to.pdf used on input line 171
+Package pdftex.def Info: images/dyn-eps-converted-to.pdf used on input line 168
 .
 (pdftex.def)             Requested size: 150.07207pt x 162.6322pt.
 
-Overfull \hbox (21.80513pt too wide) in paragraph at lines 171--171
+Overfull \hbox (21.80513pt too wide) in paragraph at lines 168--168
 [] 
  []
 
@@ -1716,31 +1695,31 @@ Package epstopdf Info: Source file: <images/dyn_meas.eps>
 (epstopdf)                    size: 35607 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/dyn_meas-eps-conver
 ted-to.pdf images/dyn_meas.eps>
-(epstopdf)             \includegraphics on input line 171.
+(epstopdf)             \includegraphics on input line 168.
 Package epstopdf Info: Output file is already uptodate.
-<images/dyn_meas-eps-converted-to.pdf, id=533, 443.6575pt x 480.79625pt>
+<images/dyn_meas-eps-converted-to.pdf, id=558, 443.6575pt x 480.79625pt>
 File: images/dyn_meas-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/dyn_meas-eps-converted-to.pdf>
 Package pdftex.def Info: images/dyn_meas-eps-converted-to.pdf used on input lin
-e 171.
+e 168.
 (pdftex.def)             Requested size: 150.07207pt x 162.6322pt.
 
-Overfull \hbox (21.80513pt too wide) in paragraph at lines 171--171
+Overfull \hbox (21.80513pt too wide) in paragraph at lines 168--168
 [] 
  []
 
-[10
+[11
 
  <./images/dyn-eps-converted-to.pdf> <./images/dyn_meas-eps-converted-to.pdf>] 
-<images/simple_kinematics.pdf, id=573, 636.3775pt x 331.90598pt>
+<images/simple_kinematics.pdf, id=598, 636.3775pt x 331.90598pt>
 File: images/simple_kinematics.pdf Graphic file (type pdf)
 
 <use images/simple_kinematics.pdf>
-Package pdftex.def Info: images/simple_kinematics.pdf used on input line 191.
+Package pdftex.def Info: images/simple_kinematics.pdf used on input line 208.
 (pdftex.def)             Requested size: 150.57062pt x 78.52968pt.
 
-Overfull \hbox (25.09477pt too wide) in paragraph at lines 191--191
+Overfull \hbox (25.09477pt too wide) in paragraph at lines 208--208
 [][] 
  []
 
@@ -1752,61 +1731,57 @@ Package epstopdf Info: Source file: <images/3d_bar_ny.eps>
 (epstopdf)                    size: 720723 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/3d_bar_ny-eps-conve
 rted-to.pdf images/3d_bar_ny.eps>
-(epstopdf)             \includegraphics on input line 191.
+(epstopdf)             \includegraphics on input line 208.
 Package epstopdf Info: Output file is already uptodate.
-<images/3d_bar_ny-eps-converted-to.pdf, id=574, 365.365pt x 347.2975pt>
+<images/3d_bar_ny-eps-converted-to.pdf, id=599, 365.365pt x 347.2975pt>
 File: images/3d_bar_ny-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/3d_bar_ny-eps-converted-to.pdf>
 Package pdftex.def Info: images/3d_bar_ny-eps-converted-to.pdf used on input li
-ne 191.
+ne 208.
 (pdftex.def)             Requested size: 125.47585pt x 119.27193pt.
- [11
+ [12
 
  <./images/simple_kinematics.pdf> <./images/3d_bar_ny-eps-converted-to.pdf>]
-<images/traj_3d_1_sim.pdf, id=1695, 670.02322pt x 484.31345pt>
+<images/traj_3d_1_sim.pdf, id=1721, 670.02322pt x 484.31345pt>
 File: images/traj_3d_1_sim.pdf Graphic file (type pdf)
 
 <use images/traj_3d_1_sim.pdf>
-Package pdftex.def Info: images/traj_3d_1_sim.pdf used on input line 219.
+Package pdftex.def Info: images/traj_3d_1_sim.pdf used on input line 236.
 (pdftex.def)             Requested size: 128.26694pt x 92.71516pt.
 
-<images/traj_3d_meas-eps-converted-to.pdf, id=1696, 774.895pt x 505.89pt>
+<images/traj_3d_meas-eps-converted-to.pdf, id=1722, 774.895pt x 505.89pt>
 File: images/traj_3d_meas-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/traj_3d_meas-eps-converted-to.pdf>
 Package pdftex.def Info: images/traj_3d_meas-eps-converted-to.pdf used on input
- line 219.
+ line 236.
 (pdftex.def)             Requested size: 141.0944pt x 92.10608pt.
 
-Overfull \hbox (12.82747pt too wide) in paragraph at lines 219--219
+Overfull \hbox (12.82747pt too wide) in paragraph at lines 236--236
 [][] 
  []
 
-[12
+[13
 
  <./images/traj_3d_1_sim.pdf> <./images/traj_3d_meas-eps-converted-to.pdf
 
 pdfTeX warning: pdflatex (file ./images/traj_3d_meas-eps-converted-to.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
->]) (./analysis_sos.tex <images/sostools.jpg, id=1732, 566.115pt x 554.07pt>
+>]) (./analysis_sos.tex <images/sostools.jpg, id=1758, 566.115pt x 554.07pt>
 File: images/sostools.jpg Graphic file (type jpg)
 
 <use images/sostools.jpg>
 Package pdftex.def Info: images/sostools.jpg used on input line 29.
 (pdftex.def)             Requested size: 97.5947pt x 95.51799pt.
-
-Overfull \vbox (2.6626pt too high) detected at line 29
- []
-
-[13
+ [14
 
  <./images/sostools.jpg>]
 Overfull \hbox (4.46828pt too wide) in paragraph at lines 92--92
 []  
  []
 
-<images/sos_delta.pdf, id=1749, 303.80199pt x 218.48326pt>
+<images/sos_delta.pdf, id=1774, 303.80199pt x 218.48326pt>
 File: images/sos_delta.pdf Graphic file (type pdf)
 
 <use images/sos_delta.pdf>
@@ -1822,103 +1797,103 @@ Overfull \hbox (15.87982pt too wide) in paragraph at lines 92--92
 []  
  []
 
-[14
+[15
 
  <./images/sos_delta.pdf>]) (./konklusion.tex
-<images/blowing-a-dandelion-600.jpg, id=1819, 602.25pt x 400.49625pt>
+<images/blowing-a-dandelion-600.jpg, id=1844, 602.25pt x 400.49625pt>
 File: images/blowing-a-dandelion-600.jpg Graphic file (type jpg)
 
 <use images/blowing-a-dandelion-600.jpg>
 Package pdftex.def Info: images/blowing-a-dandelion-600.jpg used on input line 
-28.
+27.
 (pdftex.def)             Requested size: 97.5947pt x 64.89958pt.
 
-<images/TwoPaths-900x470.jpg, id=1820, 903.375pt x 471.7625pt>
+<images/TwoPaths-900x470.jpg, id=1845, 903.375pt x 471.7625pt>
 File: images/TwoPaths-900x470.jpg Graphic file (type jpg)
 
 <use images/TwoPaths-900x470.jpg>
-Package pdftex.def Info: images/TwoPaths-900x470.jpg used on input line 28.
+Package pdftex.def Info: images/TwoPaths-900x470.jpg used on input line 27.
 (pdftex.def)             Requested size: 97.5947pt x 50.96542pt.
 
-<images/path-to-success.jpg, id=1821, 552.0625pt x 301.125pt>
+<images/path-to-success.jpg, id=1846, 552.0625pt x 301.125pt>
 File: images/path-to-success.jpg Graphic file (type jpg)
 
 <use images/path-to-success.jpg>
-Package pdftex.def Info: images/path-to-success.jpg used on input line 28.
+Package pdftex.def Info: images/path-to-success.jpg used on input line 27.
 (pdftex.def)             Requested size: 97.5947pt x 53.23065pt.
- [15
+ [16
 
  <./images/blowing-a-dandelion-600.jpg> <./images/TwoPaths-900x470.jpg> <./imag
 es/path-to-success.jpg>]
-<images/checklist.jpg, id=1836, 391.4625pt x 284.7438pt>
+<images/checklist.jpg, id=1862, 391.4625pt x 284.7438pt>
 File: images/checklist.jpg Graphic file (type jpg)
 
 <use images/checklist.jpg>
-Package pdftex.def Info: images/checklist.jpg used on input line 46.
+Package pdftex.def Info: images/checklist.jpg used on input line 45.
 (pdftex.def)             Requested size: 75.2872pt x 54.7623pt.
 
-<images/p01tgd39.jpg, id=1837, 450.9648pt x 253.6677pt>
+<images/p01tgd39.jpg, id=1863, 450.9648pt x 253.6677pt>
 File: images/p01tgd39.jpg Graphic file (type jpg)
 
 <use images/p01tgd39.jpg>
-Package pdftex.def Info: images/p01tgd39.jpg used on input line 46.
+Package pdftex.def Info: images/p01tgd39.jpg used on input line 45.
 (pdftex.def)             Requested size: 97.5947pt x 54.89359pt.
 
-<images/9212_fit512.jpg, id=1838, 513.92pt x 513.92pt>
+<images/9212_fit512.jpg, id=1864, 513.92pt x 513.92pt>
 File: images/9212_fit512.jpg Graphic file (type jpg)
 
 <use images/9212_fit512.jpg>
-Package pdftex.def Info: images/9212_fit512.jpg used on input line 46.
+Package pdftex.def Info: images/9212_fit512.jpg used on input line 45.
 (pdftex.def)             Requested size: 55.76657pt x 55.76288pt.
- [16
+ [17
 
  <./images/checklist.jpg> <./images/p01tgd39.jpg> <./images/9212_fit512.jpg>]
-<images/sostools_eval.pdf, id=1855, 541.8657pt x 83.12938pt>
+<images/sostools_eval.pdf, id=1880, 541.8657pt x 83.12938pt>
 File: images/sostools_eval.pdf Graphic file (type pdf)
 
 <use images/sostools_eval.pdf>
-Package pdftex.def Info: images/sostools_eval.pdf used on input line 66.
+Package pdftex.def Info: images/sostools_eval.pdf used on input line 65.
 (pdftex.def)             Requested size: 278.83713pt x 42.77849pt.
- [17
+ [18
 
  <./images/sostools_eval.pdf>]
-<images/The-Weak-Link-in-the-Chain-474557-2.jpg, id=1891, 1053.9375pt x 702.625
+<images/The-Weak-Link-in-the-Chain-474557-2.jpg, id=1916, 1053.9375pt x 702.625
 pt>
 File: images/The-Weak-Link-in-the-Chain-474557-2.jpg Graphic file (type jpg)
  <use images/The-Weak-Link-in-the-Chain-474557-2.jpg>
 Package pdftex.def Info: images/The-Weak-Link-in-the-Chain-474557-2.jpg used on
- input line 101.
+ input line 100.
 (pdftex.def)             Requested size: 83.65198pt x 55.76085pt.
 
-<images/work_with_us.jpg, id=1892, 582.175pt x 301.125pt>
+<images/work_with_us.jpg, id=1917, 582.175pt x 301.125pt>
 File: images/work_with_us.jpg Graphic file (type jpg)
 
 <use images/work_with_us.jpg>
-Package pdftex.def Info: images/work_with_us.jpg used on input line 101.
+Package pdftex.def Info: images/work_with_us.jpg used on input line 100.
 (pdftex.def)             Requested size: 83.65198pt x 43.26454pt.
 
-<images/chain-links-WEB.jpg, id=1893, 401.5pt x 200.75pt>
+<images/chain-links-WEB.jpg, id=1918, 401.5pt x 200.75pt>
 File: images/chain-links-WEB.jpg Graphic file (type jpg)
 
 <use images/chain-links-WEB.jpg>
-Package pdftex.def Info: images/chain-links-WEB.jpg used on input line 101.
+Package pdftex.def Info: images/chain-links-WEB.jpg used on input line 100.
 (pdftex.def)             Requested size: 83.65198pt x 41.82484pt.
- [18
+ [19
 
  <./images/The-Weak-Link-in-the-Chain-474557-2.jpg> <./images/work_with_us.jpg>
  <./images/chain-links-WEB.jpg>])
-Overfull \hbox (56.9055pt too wide) in paragraph at lines 108--108
+Overfull \hbox (56.9055pt too wide) in paragraph at lines 111--111
 []$[]$ 
  []
 
-<images/AAUgraphics/aau_waves.pdf, id=1909, 845.1575pt x 598.235pt>
+<images/AAUgraphics/aau_waves.pdf, id=1935, 845.1575pt x 598.235pt>
 File: images/AAUgraphics/aau_waves.pdf Graphic file (type pdf)
 
 <use images/AAUgraphics/aau_waves.pdf>
-Package pdftex.def Info: images/AAUgraphics/aau_waves.pdf used on input line 10
-8.
+Package pdftex.def Info: images/AAUgraphics/aau_waves.pdf used on input line 11
+1.
 (pdftex.def)             Requested size: 364.1973pt x 273.1467pt.
- [19
+ [20
 
  <./images/AAUgraphics/aau_waves.pdf, page is rotated 270 degrees>]
 \tf@nav=\write6
@@ -1930,23 +1905,23 @@ Package pdftex.def Info: images/AAUgraphics/aau_waves.pdf used on input line 10
 \tf@snm=\write8
 \openout8 = `aalborgtheme.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 111.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 111.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
  (./aalborgtheme.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 111.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 111.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 114.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 114.
 Package rerunfilecheck Info: File `aalborgtheme.out' has not changed.
-(rerunfilecheck)             Checksum: 2265BB878DCBD2EE14FB7D4EDECAC0E3;496.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 111.
+(rerunfilecheck)             Checksum: 5237F732D367FF0B9BE6D8C3A24B1B83;496.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
  ) 
 Here is how much of TeX's memory you used:
- 21330 strings out of 494958
- 394565 string characters out of 6179213
- 480255 words of memory out of 5000000
- 23917 multiletter control sequences out of 15000+600000
+ 20300 strings out of 494958
+ 375985 string characters out of 6179213
+ 460627 words of memory out of 5000000
+ 22896 multiletter control sequences out of 15000+600000
  51260 words of font info for 61 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 52i,21n,63p,411b,1071s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 52i,21n,63p,411b,1067s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-
@@ -1960,10 +1935,10 @@ s/msam5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/
 msam7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on aalborgtheme.pdf (19 pages, 10163425 bytes).
+Output written on aalborgtheme.pdf (20 pages, 11761304 bytes).
 PDF statistics:
- 1974 PDF objects out of 2073 (max. 8388607)
- 622 compressed objects within 7 object streams
- 47 named destinations out of 1000 (max. 500000)
- 328 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2000 PDF objects out of 2073 (max. 8388607)
+ 642 compressed objects within 7 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 347 words of extra memory for PDF output out of 10000 (max. 10000000)
 

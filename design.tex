@@ -4,7 +4,7 @@
 	\begin{block}{Tre use-cases}
 		\begin{itemize}
 			\item Et "simpelt" case i 1D \\ \scriptsize{ - skabe erfaring med CBF's og den anvendte kontrol topologi}
-			\item  \normalsize Virtual fixture \\ \scriptsize - at starte noget virkeligt anvendeligt
+			\item  \normalsize virtuel fikstur \\ \scriptsize - at starte noget virkeligt anvendeligt
 			\item \normalsize  Operationer i 3D rummet \\  \scriptsize - undgå at bringe vitale områder i fare
 		\end{itemize}
 	\end{block}
@@ -83,7 +83,10 @@
 
 \begin{frame}{Sikkerhed for et 1 dimensionelt system}{Resultater og erfaring}
 \begin{minipage}{0.48\textwidth}
-\includegraphics[width=1\linewidth]{vary_kappa.eps}
+\vspace*{-0.2cm}
+\includegraphics[width=1\linewidth]{kappa1sim.eps}
+
+\vspace{0.3cm}
 
 \includegraphics[width=1\linewidth]{plot_states_nem.eps}
 
@@ -94,25 +97,19 @@
 %	\item Betydning af $\kappa$, $\sigma$, ..
 %	\item simulering + da Vinci implementering
 \end{itemize}
-
-
-
-%\vspace*{-0.2cm}
-
-
 \end{minipage}
 \begin{minipage}{0.48\textwidth}
-{\color{white}{white}}
-\includegraphics[width=1\linewidth]{trajectory_slide_meas_1-eps-converted-to.pdf}
-
+%{\color{white}{white}}
+%\includegraphics[width=1\linewidth]{trajectory_slide_meas_1-eps-converted-to.pdf}
+\includegraphics[width=1\linewidth]{kappa2sim.eps}
 \vspace*{0.05cm}
-\includegraphics[width=1\linewidth]{meas_trajectory_2_order-eps-converted-to.pdf}
+\includegraphics[width=1\linewidth]{trajectory_slide_meas_1-eps-converted-to.pdf}
 
 \end{minipage}
 \end{frame}
 
-\begin{frame}{Sikkerhed for et dynamisk system}{Indledende udvikling til at opnå virtual fixture}
-\section{Virtuel fixture}
+\begin{frame}{Sikkerhed for et dynamisk system}{Indledende udvikling til at opnå virtuel fikstur}
+\section{Virtuel fikstur}
 \vspace*{-0.2cm}
 \begin{block}{}
 	\begin{itemize}
@@ -172,15 +169,35 @@ B(x) = \tilde{c}\Big( x_{h1} - x_1 \Big){\color{white}{lol}}
 
 \begin{frame}{Sikkerhed i det 3 dimensionelle rum}{På vej mod noget brugbart}
 \section{Sikkerhed i 3D}
+\begin{minipage}{0.45\textwidth}
 \vspace*{0.5cm}
 \begin{itemize}
-	\item Linear model hvor \textit{x, y} og \textit{z} er uafhænginge
-	\item Kontrol topologi er identisk med 1D systemet
-	\item Kortlægge og modifisere den kinematiske kæde
-	\item Anvende kinematiske solvere (KDL)
+	\item Lineær model \\
+	\scriptsize  \textit{x, y} og \textit{z} er uafhænginge
+	\item \normalsize Kontrol topologi \\
+	\scriptsize identisk med 1D systemet
+	\item \normalsize Kortlægge kinematik \\
+	\scriptsize modifisering til DH og IK solver 
+	\item \normalsize Kinematiske solvere
 	\item Definere CBF i 3D
 \end{itemize}
 \vspace*{-0.5cm}
+\end{minipage}
+\begin{minipage}{0.45\textwidth}
+\vspace{0.6cm}
+\begin{itemize}
+	\item Algoritme: (rate 100\,Hz)\vspace{0.1cm}\\
+	\scriptsize 1. Aflæs 6 vinkler fra sensor \\
+	\scriptsize 2. Konverter 6D til 3D (FK solver) \\
+	\scriptsize 3. Beregn $L_fB(\textbf{x})$ og $L_gB(\textbf{x})$ \\
+	\scriptsize 4. Beregn $k_0(\textbf{x})$, $\sigma(\textbf{x})$ og $\tilde{u}(\textbf{x})$ \\
+%	\scriptsize 5. Beregn $k_0(\textbf{x})$  \\
+	\scriptsize 6. Beregn kontrol signal $u(\tilde{u},\textbf{x})$ \\
+	\scriptsize 7. Konverter 3D til 6D (IK solver) \\
+	\scriptsize 8. Juster output \\
+	\scriptsize 9. Send outputs low level kontrol
+\end{itemize}
+\end{minipage}
 \begin{minipage}{0.45\textwidth}
 \includegraphics[width=1.2\linewidth]{simple_kinematics.pdf}
 \end{minipage}
