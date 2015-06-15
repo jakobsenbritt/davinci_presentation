@@ -5,13 +5,16 @@
 	\begin{itemize}
 		\item \textbf{Et naturligt ønske:}\\ - Sikkerhed og virtuel fikstur
 		\item \textbf{Opdelt løsningsstrategi:}\\ - Design og Analyse \\
-		- Success i begge tilgange 
-		\vspace{0.5cm}
-		\item Sikkerhed \underline{kan} garanteres
-		\item Virtual fixture \underline{kan} opnås
+		\scriptsize -\,\,\,\,Success i begge tilgange $\surd$ 
 %		\vspace{0.5cm}
-		\item \normalsize Interfacing gennem ROS er klargjort + kortlægning af den kinematiske kæde.
-		\item En stejl læringskurve er brudt \\ 
+		\item \normalsize Sikkerhed \underline{kan} garanteres $\surd$
+		\item Virtuel fikstur \underline{kan} opnås $\surd$
+		\vspace{0.5cm}
+		\item \normalsize ROS interface  $\surd$ \\
+		\scriptsize - startet fra scratch (næsten) \\
+		\scriptsize - velfungerende setup $\surd$ \\
+\scriptsize - enhver real-time controller $\surd$ \\
+		\item \normalsize En stejl læringskurve er brudt \\ 
 		\scriptsize - der kan arbejdes videre på projektet
 	\end{itemize}
 \end{block}
@@ -37,12 +40,12 @@
     \scriptsize {\color{white}{m}} 5. Kombiner "sikker" og "usikker" controller \\
 	\item \normalsize Kreativitet er nødvendigt når en CBF skal konstrueres
 	\item Brug når der er et fysisk forhold til tilstandene
-	\item Brugbar og behagelig fremgangsmåde
+	\item Brugbar og effektiv (ikke beregningstung)
 \end{itemize}
 \vspace*{0.2cm}
-\includegraphics[width=0.27\linewidth]{checklist.jpg} \hspace*{0.2cm}
-\includegraphics[width=0.35\linewidth]{p01tgd39.jpg} \hspace*{0.2cm}
-\includegraphics[width=0.2\linewidth]{9212_fit512.jpg}
+\includegraphics[width=0.245\linewidth]{checklist.jpg} \hspace*{0.2cm}
+\includegraphics[width=0.32\linewidth]{p01tgd39.jpg} \hspace*{0.2cm}
+\includegraphics[width=0.34\linewidth]{Effective-design1.jpg}
 \end{frame}
 
 
@@ -76,6 +79,7 @@
 %		\scriptsize {\color{white}{m}} - Modeller vil altid være forsimplet!
 		\item \normalsize Inkorporere integralvirkning \\ 
 		\scriptsize {\color{white}{m}} - især tydeligt ved det dynamiske system
+		\item \normalsize Synkronisering med hjerte
 %		\item lave en tre delining i $\mathcal{T}$
 		\item \normalsize End effector orientering \\
 		\scriptsize {\color{white}{m}} -  Sikre sikkerhed for rammen
